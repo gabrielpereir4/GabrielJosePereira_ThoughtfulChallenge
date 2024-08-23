@@ -72,13 +72,20 @@ class Tasks:
                 )
             self.logger.info(f'Current Xpath: {xpath}')
 
+            browser.wait_until_element_is_visible(xpath, 6)
             while browser.is_element_visible(xpath):
                 self.logger.info(f'Auxiliary value: {i}')
                 self.logger.info('Looking for popup')
                 # Clicks out popup that may appear
-                browser.click_element_if_visible('xpath://*[@id="root"]'
+                if browser.is_element_enabled('xpath://*[@id="root"]'
+                                                 '/div/div[4]/div[2]'
+                                                 '/div/button'):
+                    browser.scroll_element_into_view('xpath://*[@id="root"]'
                                                  '/div/div[4]/div[2]'
                                                  '/div/button')
+                    browser.click_element_if_visible('xpath://*[@id="root"]'
+                                                    '/div/div[4]/div[2]'
+                                                    '/div/button')
                 title_xpath = xpath + '/div[2]/div[1]'
                 browser.scroll_element_into_view(xpath)
 
@@ -206,7 +213,7 @@ class Tasks:
 
     def save_to_excel(self):
         df = pd.DataFrame(self.data)
-        file_path = 'excel.xlsx'
+        file_path = './output/excel.xlsx'
 
         with pd.ExcelWriter(file_path, engine='openpyxl', mode='w') as writer:
             df.to_excel(writer, index=False, sheet_name='Sheet1')
