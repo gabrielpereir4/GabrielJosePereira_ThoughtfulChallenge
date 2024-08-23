@@ -1,11 +1,14 @@
 tasks:
-  Trigger start script:
-    shell: python
-    command: main.py
+  Main:
+    shell: python -m robocorp.tasks run main.py
 
 variables:
   search_phrase: "Test"
   news_category: "None"
   months: 2
 
+condaConfigFile: conda.yaml
 artifactsDir: output
+
+ignoreFiles:
+  - .gitignore
