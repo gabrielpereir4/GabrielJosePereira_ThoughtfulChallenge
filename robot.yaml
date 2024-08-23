@@ -1,0 +1,11 @@
+tasks:
+  Trigger start script:
+    shell: python
+    command: main.py
+
+variables:
+  search_phrase: "Test"
+  news_category: "None"
+  months: 2
+
+artifactsDir: output

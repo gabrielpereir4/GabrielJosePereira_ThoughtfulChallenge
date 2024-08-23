@@ -1,3 +1,4 @@
+import os
 from automation import Automation
 
 def main():
