@@ -1,5 +1,5 @@
 tasks:
-  Main:
+  Trigger start script:
     shell: python -m robocorp.tasks run main.py -t main 
 
 variables:
