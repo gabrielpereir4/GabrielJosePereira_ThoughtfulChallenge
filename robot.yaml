@@ -1,6 +1,6 @@
 tasks:
   Main:
-    shell: python -m robocorp.tasks run main.py
+    shell: python -m robocorp.tasks run main.py -t main 
 
 variables:
   search_phrase: "Test"
