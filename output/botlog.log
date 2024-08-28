@@ -1,56 +1,801 @@
-2024-08-28 18:49:43,816 - setup - INFO - Log setup finished!
-2024-08-28 18:49:43,819 - setup - INFO - Testing!
-2024-08-28 18:49:43,819 - setup - INFO - Starting Bot
-2024-08-28 18:49:46,556 - RPA.core.webdriver - INFO - Downloaded webdriver to: C:\Users\gabri\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\128.0.6613.86\chromedriver-win32/chromedriver.exe
-2024-08-28 18:49:46,585 - RPA.Browser.Selenium - INFO - Webdriver version taken into use: ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337})
+2024-08-28 19:05:15,151 - setup - INFO - Log setup finished!
+2024-08-28 19:05:15,153 - setup - INFO - Testing!
+2024-08-28 19:05:15,153 - setup - INFO - Starting Bot
+2024-08-28 19:05:18,006 - RPA.core.webdriver - INFO - Downloaded webdriver to: C:\Users\gabri\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\128.0.6613.86\chromedriver-win32/chromedriver.exe
+2024-08-28 19:05:18,049 - RPA.Browser.Selenium - INFO - Webdriver version taken into use: ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337})
 
-2024-08-28 18:49:46,586 - RobotFramework - INFO - Creating an instance of the Chrome WebDriver.
-2024-08-28 18:49:47,671 - RPA.Browser.Selenium - INFO - Created Chrome browser (version 128.0.6613) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
-2024-08-28 18:49:47,671 - RobotFramework - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+2024-08-28 19:05:18,050 - RobotFramework - INFO - Creating an instance of the Chrome WebDriver.
+2024-08-28 19:05:20,871 - RPA.Browser.Selenium - INFO - Created Chrome browser (version 128.0.6613) with arguments: --headless=new --disable-gpu --window-size=1440,900 --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-08-28 19:05:20,871 - RobotFramework - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
 </td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
-2024-08-28 18:49:47,672 - RobotFramework - INFO - Opening url 'https://www.aljazeera.com/'
-2024-08-28 18:50:15,178 - setup - INFO - Browser open!
-2024-08-28 18:50:15,179 - setup - INFO - Looking for Cookies popup
-2024-08-28 18:50:15,224 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>The element 'xpath://*[@id="onetrust-accept-btn-handler"]' should be visible, but it is not.</i>
-2024-08-28 18:50:15,351 - RobotFramework - INFO - Typing text 'Test' into text field 'xpath://*[@id="root"]/div/div[1]/div[2]/div/div/form/div[1]/input'.
-2024-08-28 18:50:16,430 - RobotFramework - INFO - Selecting options from selection list '<selenium.webdriver.remote.webelement.WebElement (session="ac95a1ae3eaa7d79a2211040d32cbb84", element="f.9F3D20C21B98525CC0463AE0E518E1C4.d.8FDCDFBB17D448A23F1E236BDA402B80.e.158")>' by value date.
-2024-08-28 18:50:16,490 - setup - INFO - Current date: 2024-08-28 - Max date is:2024-07-28
-2024-08-28 18:50:16,490 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[1]
-2024-08-28 18:50:17,543 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[1]' is displayed.
-2024-08-28 18:50:17,544 - setup - INFO - Auxiliary value: 1
-2024-08-28 18:50:17,545 - setup - INFO - Looking for popup
-2024-08-28 18:50:17,875 - RobotFramework - INFO - Element 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' is displayed.
-2024-08-28 18:50:17,876 - RobotFramework - INFO - Clicking element 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button'.
-2024-08-28 18:50:18,253 - setup - INFO - Looking for date field
-2024-08-28 18:50:20,305 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
-2024-08-28 18:50:22,363 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
-2024-08-28 18:50:22,363 - setup - INFO - Continue: News has no time info
-2024-08-28 18:50:22,378 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[2]' is displayed.
-2024-08-28 18:50:22,379 - setup - INFO - Auxiliary value: 2
-2024-08-28 18:50:22,380 - setup - INFO - Looking for popup
-2024-08-28 18:50:23,841 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
-2024-08-28 18:50:23,848 - setup - ERROR - Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=128.0.6613.85)
-Stacktrace:
-	GetHandleVerifier [0x01168283+26163]
-	(No symbol) [0x010F9D34]
-	(No symbol) [0x00FF24C3]
-	(No symbol) [0x00FCE27B]
-	(No symbol) [0x0106192F]
-	(No symbol) [0x01073F99]
-	(No symbol) [0x0105AA56]
-	(No symbol) [0x0102BE89]
-	(No symbol) [0x0102C8CD]
-	GetHandleVerifier [0x0143CF73+2994979]
-	GetHandleVerifier [0x014917E9+3341209]
-	GetHandleVerifier [0x011F7B5F+614159]
-	GetHandleVerifier [0x011FF1EC+644508]
-	(No symbol) [0x0110286D]
-	(No symbol) [0x010FF768]
-	(No symbol) [0x010FF905]
-	(No symbol) [0x010F1C86]
-	BaseThreadInitThunk [0x75517BA9+25]
-	RtlInitializeExceptionChain [0x76FDC10B+107]
-	RtlClearBits [0x76FDC08F+191]
-
+2024-08-28 19:05:20,871 - RobotFramework - INFO - Opening url 'https://www.aljazeera.com/'
+2024-08-28 19:05:45,060 - RPA.Browser.Selenium - WARNING - Attempting to maximize browser in headless mode without knowning the screen resolution. (ignoring maximization)
+2024-08-28 19:05:45,063 - setup - INFO - Browser open!
+2024-08-28 19:05:45,064 - setup - INFO - Looking for Cookies popup
+2024-08-28 19:05:45,084 - RobotFramework - INFO - Element 'xpath://*[@id="onetrust-accept-btn-handler"]' is displayed.
+2024-08-28 19:05:45,084 - RobotFramework - INFO - Clicking element 'xpath://*[@id="onetrust-accept-btn-handler"]'.
+2024-08-28 19:05:45,231 - RobotFramework - INFO - Typing text 'Test' into text field 'xpath://*[@id="root"]/div/div[1]/div[2]/div/div/form/div[1]/input'.
+2024-08-28 19:05:46,734 - RobotFramework - INFO - Selecting options from selection list '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.41")>' by value date.
+2024-08-28 19:05:46,802 - setup - INFO - Current date: 2024-08-28 - Max date is:2024-07-28
+2024-08-28 19:05:46,803 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[1]
+2024-08-28 19:05:47,967 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[1]' is displayed.
+2024-08-28 19:05:48,024 - setup - INFO - Auxiliary value: 1
+2024-08-28 19:05:48,024 - setup - INFO - Looking for popup
+2024-08-28 19:05:48,363 - RobotFramework - INFO - Element 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' is displayed.
+2024-08-28 19:05:48,363 - RobotFramework - INFO - Clicking element 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button'.
+2024-08-28 19:05:48,712 - setup - INFO - Looking for date field
+2024-08-28 19:05:50,769 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:05:52,832 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:05:52,832 - setup - INFO - Continue: News has no time info
+2024-08-28 19:05:52,845 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[2]' is displayed.
+2024-08-28 19:05:52,857 - setup - INFO - Auxiliary value: 2
+2024-08-28 19:05:52,858 - setup - INFO - Looking for popup
+2024-08-28 19:05:54,881 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:05:55,174 - setup - INFO - Looking for date field
+2024-08-28 19:05:55,186 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[2]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:05:55,200 - setup - INFO - Time: 28 Aug 2024
+2024-08-28 19:05:55,200 - setup - INFO - Formatted Time: 2024-08-28
+2024-08-28 19:05:55,211 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[2]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:05:55,222 - setup - INFO - Title: What is the deadly 'Triple E' mosquito virus spreading in ...
+2024-08-28 19:05:55,237 - setup - INFO - Description: 7 hours ago ... In severe cases, brain swelling (encephalitis). EEE is diagnosed by observing symptoms and testing spinal fluid or blood, which can show if the ...
+2024-08-28 19:05:55,315 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-47.png"><img src="screenshots/selenium-element-screenshot-47.png" width="400px"></a>
+2024-08-28 19:05:55,316 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-47.png
+2024-08-28 19:05:55,317 - setup - INFO - Search word count: 1
+2024-08-28 19:05:55,317 - setup - INFO - Writing row: {'Title': "What is the deadly 'Triple E' mosquito virus spreading in ...", 'Date': datetime.date(2024, 8, 28), 'Description': '7 hours ago ... In severe cases, brain swelling (encephalitis). EEE is diagnosed by observing symptoms and testing spinal fluid or blood, which can show if the ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-47.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:05:55,331 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[3]' is displayed.
+2024-08-28 19:05:55,336 - setup - INFO - Auxiliary value: 3
+2024-08-28 19:05:55,336 - setup - INFO - Looking for popup
+2024-08-28 19:05:57,375 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:05:57,663 - setup - INFO - Looking for date field
+2024-08-28 19:05:57,676 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[3]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:05:57,687 - setup - INFO - Time: 28 Aug 2024
+2024-08-28 19:05:57,688 - setup - INFO - Formatted Time: 2024-08-28
+2024-08-28 19:05:57,701 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[3]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:05:57,713 - setup - INFO - Title: In Pakistan's Balochistan, deadly attacks rip uneasy migrant-local ...
+2024-08-28 19:05:57,728 - setup - INFO - Description: 8 hours ago ... 'Historic day': Bangladesh record first-ever Test cricket win over Pakistan. Bangladesh dedicates win to people killed in recent protests ...
+2024-08-28 19:05:57,788 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-48.png"><img src="screenshots/selenium-element-screenshot-48.png" width="400px"></a>
+2024-08-28 19:05:57,789 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-48.png
+2024-08-28 19:05:57,790 - setup - INFO - Search word count: 2
+2024-08-28 19:05:57,790 - setup - INFO - Writing row: {'Title': "In Pakistan's Balochistan, deadly attacks rip uneasy migrant-local ...", 'Date': datetime.date(2024, 8, 28), 'Description': "8 hours ago ... 'Historic day': Bangladesh record first-ever Test cricket win over Pakistan. Bangladesh dedicates win to people killed in recent protests ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-48.png', 'Count of Phrases': 2, 'Contains Money': False}
+2024-08-28 19:05:57,805 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[4]' is displayed.
+2024-08-28 19:05:57,809 - setup - INFO - Auxiliary value: 4
+2024-08-28 19:05:57,809 - setup - INFO - Looking for popup
+2024-08-28 19:05:59,867 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:00,159 - setup - INFO - Looking for date field
+2024-08-28 19:06:00,172 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[4]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:00,184 - setup - INFO - Time: 28 Aug 2024
+2024-08-28 19:06:00,185 - setup - INFO - Formatted Time: 2024-08-28
+2024-08-28 19:06:00,198 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[4]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:00,208 - setup - INFO - Title: Russia-Ukraine war: List of key events, day 915 | Russia-Ukraine ...
+2024-08-28 19:06:00,223 - setup - INFO - Description: 21 hours ago ... Weapons. Zelenskyy said the military had recently carried out the first successful test of a domestically-produced ballistic missile. He said he ...
+2024-08-28 19:06:00,291 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-49.png"><img src="screenshots/selenium-element-screenshot-49.png" width="400px"></a>
+2024-08-28 19:06:00,291 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-49.png
+2024-08-28 19:06:00,291 - setup - INFO - Search word count: 1
+2024-08-28 19:06:00,292 - setup - INFO - Writing row: {'Title': 'Russia-Ukraine war: List of key events, day 915 | Russia-Ukraine ...', 'Date': datetime.date(2024, 8, 28), 'Description': '21 hours ago ... Weapons. Zelenskyy said the military had recently carried out the first successful test of a domestically-produced ballistic missile. He said he ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-49.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:00,306 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[5]' is displayed.
+2024-08-28 19:06:00,310 - setup - INFO - Auxiliary value: 5
+2024-08-28 19:06:00,310 - setup - INFO - Looking for popup
+2024-08-28 19:06:02,374 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:02,666 - setup - INFO - Looking for date field
+2024-08-28 19:06:04,720 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[5]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:06,757 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[5]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:06,757 - setup - INFO - Continue: News has no time info
+2024-08-28 19:06:06,784 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[6]' is displayed.
+2024-08-28 19:06:06,788 - setup - INFO - Auxiliary value: 6
+2024-08-28 19:06:06,788 - setup - INFO - Looking for popup
+2024-08-28 19:06:08,851 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:09,166 - setup - INFO - Looking for date field
+2024-08-28 19:06:11,172 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[6]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:13,218 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[6]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:13,220 - setup - INFO - Continue: News has no time info
+2024-08-28 19:06:13,250 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[7]' is displayed.
+2024-08-28 19:06:13,253 - setup - INFO - Auxiliary value: 7
+2024-08-28 19:06:13,254 - setup - INFO - Looking for popup
+2024-08-28 19:06:15,290 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:15,639 - setup - INFO - Looking for date field
+2024-08-28 19:06:15,660 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[7]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:15,670 - setup - INFO - Time: Last update 28 Aug 2024
+2024-08-28 19:06:15,671 - setup - INFO - Formatted Time: 2024-08-28
+2024-08-28 19:06:15,683 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[7]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:15,696 - setup - INFO - Title: Sinner, Swiatek ease into US Open second round but Raducanu ...
+2024-08-28 19:06:15,708 - setup - INFO - Description: 15 hours ago ... Jannik Sinner brushed aside the pretournament drama surrounding his failed doping tests ... tests in March for a banned drug. Keep reading. list ...
+2024-08-28 19:06:15,781 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-50.png"><img src="screenshots/selenium-element-screenshot-50.png" width="400px"></a>
+2024-08-28 19:06:15,781 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-50.png
+2024-08-28 19:06:15,782 - setup - INFO - Search word count: 2
+2024-08-28 19:06:15,782 - setup - INFO - Writing row: {'Title': 'Sinner, Swiatek ease into US Open second round but Raducanu ...', 'Date': datetime.date(2024, 8, 28), 'Description': '15 hours ago ... Jannik Sinner brushed aside the pretournament drama surrounding his failed doping tests ... tests in March for a banned drug. Keep reading. list ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-50.png', 'Count of Phrases': 2, 'Contains Money': False}
+2024-08-28 19:06:15,806 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[8]' is displayed.
+2024-08-28 19:06:15,812 - setup - INFO - Auxiliary value: 8
+2024-08-28 19:06:15,813 - setup - INFO - Looking for popup
+2024-08-28 19:06:17,848 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:18,193 - setup - INFO - Looking for date field
+2024-08-28 19:06:20,214 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[8]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:22,269 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[8]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:22,270 - setup - INFO - Continue: News has no time info
+2024-08-28 19:06:22,285 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[9]' is displayed.
+2024-08-28 19:06:22,297 - setup - INFO - Auxiliary value: 9
+2024-08-28 19:06:22,297 - setup - INFO - Looking for popup
+2024-08-28 19:06:24,362 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:24,704 - setup - INFO - Looking for date field
+2024-08-28 19:06:26,714 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[9]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:28,749 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[9]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 19:06:28,751 - setup - INFO - Continue: News has no time info
+2024-08-28 19:06:28,786 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[10]' is displayed.
+2024-08-28 19:06:28,790 - setup - INFO - Auxiliary value: 10
+2024-08-28 19:06:28,790 - setup - INFO - Looking for popup
+2024-08-28 19:06:30,871 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:31,171 - setup - INFO - Looking for date field
+2024-08-28 19:06:31,186 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[10]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:31,199 - setup - INFO - Time: 28 Aug 2024
+2024-08-28 19:06:31,200 - setup - INFO - Formatted Time: 2024-08-28
+2024-08-28 19:06:31,210 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[10]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:31,222 - setup - INFO - Title: Dozens missing in Yemen floods, risk of cholera outbreak rises ...
+2024-08-28 19:06:31,238 - setup - INFO - Description: 11 hours ago ... Abdullah al-Shmairi is one among many who fears his entire family may now have cholera after his son tested positive. “Our whole household ...
+2024-08-28 19:06:31,314 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-51.png"><img src="screenshots/selenium-element-screenshot-51.png" width="400px"></a>
+2024-08-28 19:06:31,315 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-51.png
+2024-08-28 19:06:31,315 - setup - INFO - Search word count: 1
+2024-08-28 19:06:31,316 - setup - INFO - Writing row: {'Title': 'Dozens missing in Yemen floods, risk of cholera outbreak rises ...', 'Date': datetime.date(2024, 8, 28), 'Description': '11 hours ago ... Abdullah al-Shmairi is one among many who fears his entire family may now have cholera after his son tested positive. “Our whole household ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-51.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:33,366 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[11]' not found.</i>
+2024-08-28 19:06:33,381 - setup - INFO - Attempt 1 of 5
+2024-08-28 19:06:33,381 - setup - INFO - Looking for popup
+2024-08-28 19:06:35,457 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:35,778 - RobotFramework - INFO - Element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.96")>' is displayed.
+2024-08-28 19:06:35,778 - RobotFramework - INFO - Clicking element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.96")>'.
+2024-08-28 19:06:35,817 - setup - INFO - Success at attempt 1
+2024-08-28 19:06:35,818 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[12]
+2024-08-28 19:06:36,902 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[12]' is displayed.
+2024-08-28 19:06:36,915 - setup - INFO - Auxiliary value: 12
+2024-08-28 19:06:36,915 - setup - INFO - Looking for popup
+2024-08-28 19:06:38,970 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:39,298 - setup - INFO - Looking for date field
+2024-08-28 19:06:39,315 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[12]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:39,328 - setup - INFO - Time: Last update 27 Aug 2024
+2024-08-28 19:06:39,329 - setup - INFO - Formatted Time: 2024-08-27
+2024-08-28 19:06:39,340 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[12]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:39,353 - setup - INFO - Title: West Africa's 'coup belt': Did Mali's 2020 army takeover change the ...
+2024-08-28 19:06:39,366 - setup - INFO - Description: 2 days ago ... Keep reading. list of 4 items list 1 of 4. A year after Niger's coup, split political loyalties test family ties. list 2 of 4. 'They rape us ...
+2024-08-28 19:06:39,441 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-52.png"><img src="screenshots/selenium-element-screenshot-52.png" width="400px"></a>
+2024-08-28 19:06:39,441 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-52.png
+2024-08-28 19:06:39,441 - setup - INFO - Search word count: 1
+2024-08-28 19:06:39,442 - setup - INFO - Writing row: {'Title': "West Africa's 'coup belt': Did Mali's 2020 army takeover change the ...", 'Date': datetime.date(2024, 8, 27), 'Description': "2 days ago ... Keep reading. list of 4 items list 1 of 4. A year after Niger's coup, split political loyalties test family ties. list 2 of 4. 'They rape us ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-52.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:39,457 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[13]' is displayed.
+2024-08-28 19:06:39,462 - setup - INFO - Auxiliary value: 13
+2024-08-28 19:06:39,462 - setup - INFO - Looking for popup
+2024-08-28 19:06:41,509 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:41,851 - setup - INFO - Looking for date field
+2024-08-28 19:06:41,875 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[13]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:41,891 - setup - INFO - Time: 27 Aug 2024
+2024-08-28 19:06:41,891 - setup - INFO - Formatted Time: 2024-08-27
+2024-08-28 19:06:41,910 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[13]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:41,921 - setup - INFO - Title: Bangladesh cricketers rally round murder accused teammate Shakib ...
+2024-08-28 19:06:41,935 - setup - INFO - Description: 2 days ago ... Captain Najmul Hossain Shanto said his team's maiden Test win against Pakistan on Sunday, in which all-rounder Shakib took three wickets in the ...
+2024-08-28 19:06:42,011 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-53.png"><img src="screenshots/selenium-element-screenshot-53.png" width="400px"></a>
+2024-08-28 19:06:42,011 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-53.png
+2024-08-28 19:06:42,012 - setup - INFO - Search word count: 1
+2024-08-28 19:06:42,012 - setup - INFO - Writing row: {'Title': 'Bangladesh cricketers rally round murder accused teammate Shakib ...', 'Date': datetime.date(2024, 8, 27), 'Description': "2 days ago ... Captain Najmul Hossain Shanto said his team's maiden Test win against Pakistan on Sunday, in which all-rounder Shakib took three wickets in the ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-53.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:42,027 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[14]' is displayed.
+2024-08-28 19:06:42,032 - setup - INFO - Auxiliary value: 14
+2024-08-28 19:06:42,032 - setup - INFO - Looking for popup
+2024-08-28 19:06:44,045 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:44,373 - setup - INFO - Looking for date field
+2024-08-28 19:06:44,392 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[14]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:44,403 - setup - INFO - Time: 27 Aug 2024
+2024-08-28 19:06:44,404 - setup - INFO - Formatted Time: 2024-08-27
+2024-08-28 19:06:44,415 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[14]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:44,426 - setup - INFO - Title: Does a presidential candidate's military service still matter to US ...
+2024-08-28 19:06:44,442 - setup - INFO - Description: 1 day ago ... “I think that sort of service was also a test of patriotism.” Tim Walz gestures across a wooden table, as he speaks with Melissa Houghtaling ...
+2024-08-28 19:06:44,509 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-54.png"><img src="screenshots/selenium-element-screenshot-54.png" width="400px"></a>
+2024-08-28 19:06:44,509 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-54.png
+2024-08-28 19:06:44,510 - setup - INFO - Search word count: 1
+2024-08-28 19:06:44,510 - setup - INFO - Writing row: {'Title': "Does a presidential candidate's military service still matter to US ...", 'Date': datetime.date(2024, 8, 27), 'Description': '1 day ago ... “I think that sort of service was also a test of patriotism.” Tim Walz gestures across a wooden table, as he speaks with Melissa Houghtaling ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-54.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:44,525 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[15]' is displayed.
+2024-08-28 19:06:44,528 - setup - INFO - Auxiliary value: 15
+2024-08-28 19:06:44,528 - setup - INFO - Looking for popup
+2024-08-28 19:06:46,570 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:46,901 - setup - INFO - Looking for date field
+2024-08-28 19:06:46,921 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[15]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:46,932 - setup - INFO - Time: Last update 27 Aug 2024
+2024-08-28 19:06:46,933 - setup - INFO - Formatted Time: 2024-08-27
+2024-08-28 19:06:46,945 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[15]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:46,956 - setup - INFO - Title: Russia launches another wave of missiles and drones at Ukraine ...
+2024-08-28 19:06:46,968 - setup - INFO - Description: 1 day ago ... “There has been a positive test of the first Ukrainian ballistic missile. I congratulate our defence industry on this. I can't share any more ...
+2024-08-28 19:06:47,042 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-55.png"><img src="screenshots/selenium-element-screenshot-55.png" width="400px"></a>
+2024-08-28 19:06:47,043 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-55.png
+2024-08-28 19:06:47,044 - setup - INFO - Search word count: 1
+2024-08-28 19:06:47,044 - setup - INFO - Writing row: {'Title': 'Russia launches another wave of missiles and drones at Ukraine ...', 'Date': datetime.date(2024, 8, 27), 'Description': "1 day ago ... “There has been a positive test of the first Ukrainian ballistic missile. I congratulate our defence industry on this. I can't share any more ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-55.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:47,062 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[16]' is displayed.
+2024-08-28 19:06:47,065 - setup - INFO - Auxiliary value: 16
+2024-08-28 19:06:47,066 - setup - INFO - Looking for popup
+2024-08-28 19:06:49,083 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:49,414 - setup - INFO - Looking for date field
+2024-08-28 19:06:49,431 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[16]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:49,442 - setup - INFO - Time: 27 Aug 2024
+2024-08-28 19:06:49,443 - setup - INFO - Formatted Time: 2024-08-27
+2024-08-28 19:06:49,454 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[16]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:49,465 - setup - INFO - Title: Kamala Harris and fortifying Black-Palestinian solidarity | US ...
+2024-08-28 19:06:49,478 - setup - INFO - Description: 1 day ago ... Palestine acts as a testing ground for military technologies and the normalisation of extreme violence which can be deployed against ...
+2024-08-28 19:06:49,546 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-56.png"><img src="screenshots/selenium-element-screenshot-56.png" width="400px"></a>
+2024-08-28 19:06:49,547 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-56.png
+2024-08-28 19:06:49,549 - setup - INFO - Search word count: 1
+2024-08-28 19:06:49,549 - setup - INFO - Writing row: {'Title': 'Kamala Harris and fortifying Black-Palestinian solidarity | US ...', 'Date': datetime.date(2024, 8, 27), 'Description': '1 day ago ... Palestine acts as a testing ground for military technologies and the normalisation of extreme violence which can be deployed against ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-56.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:49,566 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[17]' is displayed.
+2024-08-28 19:06:49,571 - setup - INFO - Auxiliary value: 17
+2024-08-28 19:06:49,571 - setup - INFO - Looking for popup
+2024-08-28 19:06:51,625 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:51,936 - setup - INFO - Looking for date field
+2024-08-28 19:06:51,958 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[17]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:51,969 - setup - INFO - Time: 26 Aug 2024
+2024-08-28 19:06:51,970 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:06:51,981 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[17]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:51,992 - setup - INFO - Title: China steps up armed patrols on border as Myanmar conflict deepens
+2024-08-28 19:06:52,006 - setup - INFO - Description: 3 days ago ... The Southern Theater of the Chinese People's Liberation Army said it had also organised army units to test soldiers' ability to “quickly ...
+2024-08-28 19:06:52,073 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-57.png"><img src="screenshots/selenium-element-screenshot-57.png" width="400px"></a>
+2024-08-28 19:06:52,074 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-57.png
+2024-08-28 19:06:52,074 - setup - INFO - Search word count: 1
+2024-08-28 19:06:52,074 - setup - INFO - Writing row: {'Title': 'China steps up armed patrols on border as Myanmar conflict deepens', 'Date': datetime.date(2024, 8, 26), 'Description': "3 days ago ... The Southern Theater of the Chinese People's Liberation Army said it had also organised army units to test soldiers' ability to “quickly ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-57.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:52,091 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[18]' is displayed.
+2024-08-28 19:06:52,096 - setup - INFO - Auxiliary value: 18
+2024-08-28 19:06:52,097 - setup - INFO - Looking for popup
+2024-08-28 19:06:54,152 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:54,465 - setup - INFO - Looking for date field
+2024-08-28 19:06:54,479 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[18]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:54,490 - setup - INFO - Time: 26 Aug 2024
+2024-08-28 19:06:54,490 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:06:54,500 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[18]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:54,512 - setup - INFO - Title: As Ukraine, Gaza wars rage on, some airlines are benefitting ...
+2024-08-28 19:06:54,525 - setup - INFO - Description: 2 days ago ... That's changed recently,” Ken Munro, partner at Pen Test Partners, a cybersecurity consulting firm, told Al Jazeera. OpsGroup – which ...
+2024-08-28 19:06:54,590 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-58.png"><img src="screenshots/selenium-element-screenshot-58.png" width="400px"></a>
+2024-08-28 19:06:54,591 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-58.png
+2024-08-28 19:06:54,592 - setup - INFO - Search word count: 1
+2024-08-28 19:06:54,592 - setup - INFO - Writing row: {'Title': 'As Ukraine, Gaza wars rage on, some airlines are benefitting ...', 'Date': datetime.date(2024, 8, 26), 'Description': "2 days ago ... That's changed recently,” Ken Munro, partner at Pen Test Partners, a cybersecurity consulting firm, told Al Jazeera. OpsGroup – which ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-58.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:54,606 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[19]' is displayed.
+2024-08-28 19:06:54,611 - setup - INFO - Auxiliary value: 19
+2024-08-28 19:06:54,611 - setup - INFO - Looking for popup
+2024-08-28 19:06:56,641 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:56,995 - setup - INFO - Looking for date field
+2024-08-28 19:06:57,013 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[19]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:57,027 - setup - INFO - Time: Last update 26 Aug 2024
+2024-08-28 19:06:57,027 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:06:57,038 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[19]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:57,050 - setup - INFO - Title: New Zealand dairy firm fined over products using Indian butter ...
+2024-08-28 19:06:57,064 - setup - INFO - Description: 3 days ago ... North Korean leader Kim Jong Un oversees suicide drone tests. list 3 of 4. The Take: The fallacies of Israel's 'Octopus Doctrine'. list 4 of 4 ...
+2024-08-28 19:06:57,123 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-59.png"><img src="screenshots/selenium-element-screenshot-59.png" width="400px"></a>
+2024-08-28 19:06:57,124 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-59.png
+2024-08-28 19:06:57,124 - setup - INFO - Search word count: 1
+2024-08-28 19:06:57,125 - setup - INFO - Writing row: {'Title': 'New Zealand dairy firm fined over products using Indian butter ...', 'Date': datetime.date(2024, 8, 26), 'Description': "3 days ago ... North Korean leader Kim Jong Un oversees suicide drone tests. list 3 of 4. The Take: The fallacies of Israel's 'Octopus Doctrine'. list 4 of 4 ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-59.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:06:57,139 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[20]' is displayed.
+2024-08-28 19:06:57,143 - setup - INFO - Auxiliary value: 20
+2024-08-28 19:06:57,143 - setup - INFO - Looking for popup
+2024-08-28 19:06:59,195 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:06:59,532 - setup - INFO - Looking for date field
+2024-08-28 19:06:59,554 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[20]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:59,570 - setup - INFO - Time: Last update 26 Aug 2024
+2024-08-28 19:06:59,571 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:06:59,581 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[20]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:06:59,592 - setup - INFO - Title: North Korean leader Kim Jong Un oversees suicide drone tests ...
+2024-08-28 19:06:59,606 - setup - INFO - Description: 3 days ago ... State media shows Kim looking ecstatic after test in which drones crashed into what appeared to be a tank.
+2024-08-28 19:06:59,689 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-60.png"><img src="screenshots/selenium-element-screenshot-60.png" width="400px"></a>
+2024-08-28 19:06:59,691 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-60.png
+2024-08-28 19:06:59,691 - setup - INFO - Search word count: 2
+2024-08-28 19:06:59,691 - setup - INFO - Writing row: {'Title': 'North Korean leader Kim Jong Un oversees suicide drone tests ...', 'Date': datetime.date(2024, 8, 26), 'Description': '3 days ago ... State media shows Kim looking ecstatic after test in which drones crashed into what appeared to be a tank.', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-60.png', 'Count of Phrases': 2, 'Contains Money': False}
+2024-08-28 19:07:01,744 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[21]' not found.</i>
+2024-08-28 19:07:01,757 - setup - INFO - Attempt 1 of 5
+2024-08-28 19:07:01,757 - setup - INFO - Looking for popup
+2024-08-28 19:07:03,816 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:04,136 - RobotFramework - INFO - Element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.159")>' is displayed.
+2024-08-28 19:07:04,138 - RobotFramework - INFO - Clicking element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.159")>'.
+2024-08-28 19:07:04,186 - setup - INFO - Success at attempt 1
+2024-08-28 19:07:04,187 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[22]
+2024-08-28 19:07:05,351 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[22]' is displayed.
+2024-08-28 19:07:05,362 - setup - INFO - Auxiliary value: 22
+2024-08-28 19:07:05,362 - setup - INFO - Looking for popup
+2024-08-28 19:07:07,395 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:07,734 - setup - INFO - Looking for date field
+2024-08-28 19:07:07,752 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[22]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:07,765 - setup - INFO - Time: 26 Aug 2024
+2024-08-28 19:07:07,766 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:07:07,778 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[22]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:07,790 - setup - INFO - Title: Chinese swimmer Sun Yang wins on return from four-year drugs ...
+2024-08-28 19:07:07,803 - setup - INFO - Description: 2 days ago ... ... test, the circumstances of which he still disputes. Keep reading ... Sun was also given a three-month ban in 2014 after testing positive for a ...
+2024-08-28 19:07:07,878 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-61.png"><img src="screenshots/selenium-element-screenshot-61.png" width="400px"></a>
+2024-08-28 19:07:07,879 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-61.png
+2024-08-28 19:07:07,880 - setup - INFO - Search word count: 2
+2024-08-28 19:07:07,880 - setup - INFO - Writing row: {'Title': 'Chinese swimmer Sun Yang wins on return from four-year drugs ...', 'Date': datetime.date(2024, 8, 26), 'Description': '2 days ago ... ... test, the circumstances of which he still disputes. Keep reading ... Sun was also given a three-month ban in 2014 after testing positive for a ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-61.png', 'Count of Phrases': 2, 'Contains Money': False}
+2024-08-28 19:07:07,903 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[23]' is displayed.
+2024-08-28 19:07:07,911 - setup - INFO - Auxiliary value: 23
+2024-08-28 19:07:07,911 - setup - INFO - Looking for popup
+2024-08-28 19:07:09,968 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:10,321 - setup - INFO - Looking for date field
+2024-08-28 19:07:10,360 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[23]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:10,382 - setup - INFO - Time: Last update 26 Aug 2024
+2024-08-28 19:07:10,382 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:07:10,395 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[23]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:10,413 - setup - INFO - Title: Airlines suspend flights over clashes between Israel and Hezbollah ...
+2024-08-28 19:07:10,429 - setup - INFO - Description: 3 days ago ... North Korean leader Kim Jong Un oversees suicide drone tests ... Etihad, Ethiopian Airlines and Hungarian low-cost carrier Wizz also announced the ...
+2024-08-28 19:07:10,508 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-62.png"><img src="screenshots/selenium-element-screenshot-62.png" width="400px"></a>
+2024-08-28 19:07:10,509 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-62.png
+2024-08-28 19:07:10,509 - setup - INFO - Search word count: 1
+2024-08-28 19:07:10,510 - setup - INFO - Writing row: {'Title': 'Airlines suspend flights over clashes between Israel and Hezbollah ...', 'Date': datetime.date(2024, 8, 26), 'Description': '3 days ago ... North Korean leader Kim Jong Un oversees suicide drone tests ... Etihad, Ethiopian Airlines and Hungarian low-cost carrier Wizz also announced the ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-62.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:10,532 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[24]' is displayed.
+2024-08-28 19:07:10,536 - setup - INFO - Auxiliary value: 24
+2024-08-28 19:07:10,536 - setup - INFO - Looking for popup
+2024-08-28 19:07:12,596 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:12,931 - setup - INFO - Looking for date field
+2024-08-28 19:07:12,947 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[24]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:12,962 - setup - INFO - Time: 26 Aug 2024
+2024-08-28 19:07:12,963 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:07:12,975 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[24]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:12,987 - setup - INFO - Title: Nearly 200 people dead: What's behind armed attacks in Burkina ...
+2024-08-28 19:07:13,000 - setup - INFO - Description: 2 days ago ... Analysts said the recruits get only minimal training and are not combat-tested. “They are conducting more operations and have secured some ...
+2024-08-28 19:07:13,087 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-63.png"><img src="screenshots/selenium-element-screenshot-63.png" width="400px"></a>
+2024-08-28 19:07:13,087 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-63.png
+2024-08-28 19:07:13,088 - setup - INFO - Search word count: 1
+2024-08-28 19:07:13,088 - setup - INFO - Writing row: {'Title': "Nearly 200 people dead: What's behind armed attacks in Burkina ...", 'Date': datetime.date(2024, 8, 26), 'Description': '2 days ago ... Analysts said the recruits get only minimal training and are not combat-tested. “They are conducting more operations and have secured some ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-63.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:13,101 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[25]' is displayed.
+2024-08-28 19:07:13,104 - setup - INFO - Auxiliary value: 25
+2024-08-28 19:07:13,104 - setup - INFO - Looking for popup
+2024-08-28 19:07:15,164 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:15,469 - setup - INFO - Looking for date field
+2024-08-28 19:07:15,483 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[25]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:15,492 - setup - INFO - Time: Last update 25 Aug 2024
+2024-08-28 19:07:15,493 - setup - INFO - Formatted Time: 2024-08-25
+2024-08-28 19:07:15,504 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[25]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:15,514 - setup - INFO - Title: Cricket: Bangladesh beat Pakistan by 10 wickets in historic ...
+2024-08-28 19:07:15,536 - setup - INFO - Description: 3 days ago ... ... Test in Rawalpindi. Off-spinner Mehidy Hasan Miraz and left-arm spinner Shakib Al Hasan, who was a lawmaker from former Prime Minister ...
+2024-08-28 19:07:15,609 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-64.png"><img src="screenshots/selenium-element-screenshot-64.png" width="400px"></a>
+2024-08-28 19:07:15,610 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-64.png
+2024-08-28 19:07:15,610 - setup - INFO - Search word count: 1
+2024-08-28 19:07:15,610 - setup - INFO - Writing row: {'Title': 'Cricket: Bangladesh beat Pakistan by 10 wickets in historic ...', 'Date': datetime.date(2024, 8, 25), 'Description': '3 days ago ... ... Test in Rawalpindi. Off-spinner Mehidy Hasan Miraz and left-arm spinner Shakib Al Hasan, who was a lawmaker from former Prime Minister ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-64.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:15,632 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[26]' is displayed.
+2024-08-28 19:07:15,636 - setup - INFO - Auxiliary value: 26
+2024-08-28 19:07:15,636 - setup - INFO - Looking for popup
+2024-08-28 19:07:17,668 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:18,014 - setup - INFO - Looking for date field
+2024-08-28 19:07:18,039 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[26]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:18,051 - setup - INFO - Time: Last update 26 Aug 2024
+2024-08-28 19:07:18,052 - setup - INFO - Formatted Time: 2024-08-26
+2024-08-28 19:07:18,063 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[26]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:18,077 - setup - INFO - Title: Prize money, seeds, schedule: All to know about the 2024 US Open ...
+2024-08-28 19:07:18,105 - setup - INFO - Description: 3 days ago ... ... tests in recent weeks, causing a stir among fellow players with Djokovic questioning the “lack of standardised protocols” in tennis. Al ...
+2024-08-28 19:07:18,184 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-65.png"><img src="screenshots/selenium-element-screenshot-65.png" width="400px"></a>
+2024-08-28 19:07:18,185 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-65.png
+2024-08-28 19:07:18,186 - setup - INFO - Search word count: 1
+2024-08-28 19:07:18,187 - setup - INFO - Writing row: {'Title': 'Prize money, seeds, schedule: All to know about the 2024 US Open ...', 'Date': datetime.date(2024, 8, 26), 'Description': '3 days ago ... ... tests in recent weeks, causing a stir among fellow players with Djokovic questioning the “lack of standardised protocols” in tennis. Al ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-65.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:18,203 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[27]' is displayed.
+2024-08-28 19:07:18,207 - setup - INFO - Auxiliary value: 27
+2024-08-28 19:07:18,207 - setup - INFO - Looking for popup
+2024-08-28 19:07:20,229 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:20,579 - setup - INFO - Looking for date field
+2024-08-28 19:07:20,598 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[27]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:20,608 - setup - INFO - Time: 25 Aug 2024
+2024-08-28 19:07:20,609 - setup - INFO - Formatted Time: 2024-08-25
+2024-08-28 19:07:20,628 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[27]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:20,647 - setup - INFO - Title: Djokovic wants 'clear protocols' in tennis after Sinner doping case ...
+2024-08-28 19:07:20,663 - setup - INFO - Description: 4 days ago ... Sinner tested positive twice in March for an anabolic steroid, but the International Tennis Integrity Agency determined the banned performance ...
+2024-08-28 19:07:20,726 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-66.png"><img src="screenshots/selenium-element-screenshot-66.png" width="400px"></a>
+2024-08-28 19:07:20,727 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-66.png
+2024-08-28 19:07:20,728 - setup - INFO - Search word count: 1
+2024-08-28 19:07:20,728 - setup - INFO - Writing row: {'Title': "Djokovic wants 'clear protocols' in tennis after Sinner doping case ...", 'Date': datetime.date(2024, 8, 25), 'Description': '4 days ago ... Sinner tested positive twice in March for an anabolic steroid, but the International Tennis Integrity Agency determined the banned performance ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-66.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:20,747 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[28]' is displayed.
+2024-08-28 19:07:20,752 - setup - INFO - Auxiliary value: 28
+2024-08-28 19:07:20,752 - setup - INFO - Looking for popup
+2024-08-28 19:07:22,784 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:23,118 - setup - INFO - Looking for date field
+2024-08-28 19:07:23,143 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[28]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:23,156 - setup - INFO - Time: Last update 25 Aug 2024
+2024-08-28 19:07:23,159 - setup - INFO - Formatted Time: 2024-08-25
+2024-08-28 19:07:23,181 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[28]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:23,193 - setup - INFO - Title: Liverpool vs Brentford 2-0: Premier League football – as it happened ...
+2024-08-28 19:07:23,206 - setup - INFO - Description: 3 days ago ... ... tests soon. Liverpool's principal owner, John Henry, was in the crowd, and he must be pretty pleased by what he's seen. Meanwhile ...
+2024-08-28 19:07:23,279 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-67.png"><img src="screenshots/selenium-element-screenshot-67.png" width="400px"></a>
+2024-08-28 19:07:23,280 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-67.png
+2024-08-28 19:07:23,280 - setup - INFO - Search word count: 1
+2024-08-28 19:07:23,280 - setup - INFO - Writing row: {'Title': 'Liverpool vs Brentford 2-0: Premier League football – as it happened ...', 'Date': datetime.date(2024, 8, 25), 'Description': "3 days ago ... ... tests soon. Liverpool's principal owner, John Henry, was in the crowd, and he must be pretty pleased by what he's seen. Meanwhile ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-67.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:23,296 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[29]' is displayed.
+2024-08-28 19:07:23,300 - setup - INFO - Auxiliary value: 29
+2024-08-28 19:07:23,301 - setup - INFO - Looking for popup
+2024-08-28 19:07:25,367 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:25,695 - setup - INFO - Looking for date field
+2024-08-28 19:07:25,732 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[29]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:25,752 - setup - INFO - Time: Last update 24 Aug 2024
+2024-08-28 19:07:25,753 - setup - INFO - Formatted Time: 2024-08-24
+2024-08-28 19:07:25,764 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[29]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:25,774 - setup - INFO - Title: What's the big mystery behind the Shroud of Turin? | History News ...
+2024-08-28 19:07:25,788 - setup - INFO - Description: 4 days ago ... Bloodstains on the shroud were tested and found to be the AB blood type, according to a research article by a team from the Spanish Centre of ...
+2024-08-28 19:07:25,855 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-68.png"><img src="screenshots/selenium-element-screenshot-68.png" width="400px"></a>
+2024-08-28 19:07:25,855 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-68.png
+2024-08-28 19:07:25,855 - setup - INFO - Search word count: 1
+2024-08-28 19:07:25,856 - setup - INFO - Writing row: {'Title': "What's the big mystery behind the Shroud of Turin? | History News ...", 'Date': datetime.date(2024, 8, 24), 'Description': '4 days ago ... Bloodstains on the shroud were tested and found to be the AB blood type, according to a research article by a team from the Spanish Centre of ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-68.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:25,869 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[30]' is displayed.
+2024-08-28 19:07:25,873 - setup - INFO - Auxiliary value: 30
+2024-08-28 19:07:25,873 - setup - INFO - Looking for popup
+2024-08-28 19:07:27,913 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:28,269 - setup - INFO - Looking for date field
+2024-08-28 19:07:28,287 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[30]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:28,301 - setup - INFO - Time: 24 Aug 2024
+2024-08-28 19:07:28,301 - setup - INFO - Formatted Time: 2024-08-24
+2024-08-28 19:07:28,312 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[30]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:28,325 - setup - INFO - Title: Boeing's Starliner astronauts to return from space next year, NASA ...
+2024-08-28 19:07:28,338 - setup - INFO - Description: 4 days ago ... Veteran NASA astronauts Butch Wilmore and Suni Williams, both former military test pilots, became the first crew to ride Starliner on June 5 ...
+2024-08-28 19:07:28,404 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-69.png"><img src="screenshots/selenium-element-screenshot-69.png" width="400px"></a>
+2024-08-28 19:07:28,405 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-69.png
+2024-08-28 19:07:28,405 - setup - INFO - Search word count: 1
+2024-08-28 19:07:28,405 - setup - INFO - Writing row: {'Title': "Boeing's Starliner astronauts to return from space next year, NASA ...", 'Date': datetime.date(2024, 8, 24), 'Description': '4 days ago ... Veteran NASA astronauts Butch Wilmore and Suni Williams, both former military test pilots, became the first crew to ride Starliner on June 5 ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-69.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:30,423 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[31]' not found.</i>
+2024-08-28 19:07:30,439 - setup - INFO - Attempt 1 of 5
+2024-08-28 19:07:30,439 - setup - INFO - Looking for popup
+2024-08-28 19:07:32,505 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:32,826 - RobotFramework - INFO - Element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.222")>' is displayed.
+2024-08-28 19:07:32,826 - RobotFramework - INFO - Clicking element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.222")>'.
+2024-08-28 19:07:32,879 - setup - INFO - Success at attempt 1
+2024-08-28 19:07:32,880 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[32]
+2024-08-28 19:07:34,035 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[32]' is displayed.
+2024-08-28 19:07:34,046 - setup - INFO - Auxiliary value: 32
+2024-08-28 19:07:34,046 - setup - INFO - Looking for popup
+2024-08-28 19:07:36,054 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:36,375 - setup - INFO - Looking for date field
+2024-08-28 19:07:36,395 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[32]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:36,407 - setup - INFO - Time: 23 Aug 2024
+2024-08-28 19:07:36,408 - setup - INFO - Formatted Time: 2024-08-23
+2024-08-28 19:07:36,418 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[32]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:36,430 - setup - INFO - Title: Panda Meng Meng gives birth to second set of twins at Berlin Zoo ...
+2024-08-28 19:07:36,443 - setup - INFO - Description: 5 days ago ... Why have Brazilian sharks tested positive for cocaine? Study finds rise in numbers of people using the drug is causing large quantities to ...
+2024-08-28 19:07:36,506 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-70.png"><img src="screenshots/selenium-element-screenshot-70.png" width="400px"></a>
+2024-08-28 19:07:36,506 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-70.png
+2024-08-28 19:07:36,507 - setup - INFO - Search word count: 1
+2024-08-28 19:07:36,507 - setup - INFO - Writing row: {'Title': 'Panda Meng Meng gives birth to second set of twins at Berlin Zoo ...', 'Date': datetime.date(2024, 8, 23), 'Description': '5 days ago ... Why have Brazilian sharks tested positive for cocaine? Study finds rise in numbers of people using the drug is causing large quantities to ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-70.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:36,523 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[33]' is displayed.
+2024-08-28 19:07:36,525 - setup - INFO - Auxiliary value: 33
+2024-08-28 19:07:36,526 - setup - INFO - Looking for popup
+2024-08-28 19:07:38,587 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:38,924 - setup - INFO - Looking for date field
+2024-08-28 19:07:38,942 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[33]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:38,953 - setup - INFO - Time: 23 Aug 2024
+2024-08-28 19:07:38,954 - setup - INFO - Formatted Time: 2024-08-23
+2024-08-28 19:07:38,965 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[33]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:38,975 - setup - INFO - Title: 'They give me hope': Beating HIV stigma with community support in ...
+2024-08-28 19:07:38,988 - setup - INFO - Description: 6 days ago ... Mutare, Zimbabwe – When Wonder Mwatamawenyu tested positive for HIV as a young man more than two decades ago, he thought he had signed his ...
+2024-08-28 19:07:39,057 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-71.png"><img src="screenshots/selenium-element-screenshot-71.png" width="400px"></a>
+2024-08-28 19:07:39,058 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-71.png
+2024-08-28 19:07:39,058 - setup - INFO - Search word count: 1
+2024-08-28 19:07:39,058 - setup - INFO - Writing row: {'Title': "'They give me hope': Beating HIV stigma with community support in ...", 'Date': datetime.date(2024, 8, 23), 'Description': '6 days ago ... Mutare, Zimbabwe – When Wonder Mwatamawenyu tested positive for HIV as a young man more than two decades ago, he thought he had signed his ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-71.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:39,077 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[34]' is displayed.
+2024-08-28 19:07:39,080 - setup - INFO - Auxiliary value: 34
+2024-08-28 19:07:39,080 - setup - INFO - Looking for popup
+2024-08-28 19:07:41,115 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:41,440 - setup - INFO - Looking for date field
+2024-08-28 19:07:41,462 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[34]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:41,473 - setup - INFO - Time: 23 Aug 2024
+2024-08-28 19:07:41,473 - setup - INFO - Formatted Time: 2024-08-23
+2024-08-28 19:07:41,485 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[34]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:41,497 - setup - INFO - Title: South Korea blames deadly battery plant fire on safety failures ...
+2024-08-28 19:07:41,510 - setup - INFO - Description: 6 days ago ... Aricell accused of manipulating test samples from previous inspections and hiring unskilled labourers at lithium plant.
+2024-08-28 19:07:41,589 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-72.png"><img src="screenshots/selenium-element-screenshot-72.png" width="400px"></a>
+2024-08-28 19:07:41,590 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-72.png
+2024-08-28 19:07:41,590 - setup - INFO - Search word count: 1
+2024-08-28 19:07:41,590 - setup - INFO - Writing row: {'Title': 'South Korea blames deadly battery plant fire on safety failures ...', 'Date': datetime.date(2024, 8, 23), 'Description': '6 days ago ... Aricell accused of manipulating test samples from previous inspections and hiring unskilled labourers at lithium plant.', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-72.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:41,609 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[35]' is displayed.
+2024-08-28 19:07:41,612 - setup - INFO - Auxiliary value: 35
+2024-08-28 19:07:41,613 - setup - INFO - Looking for popup
+2024-08-28 19:07:43,634 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:43,968 - setup - INFO - Looking for date field
+2024-08-28 19:07:43,986 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[35]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:43,998 - setup - INFO - Time: 23 Aug 2024
+2024-08-28 19:07:43,999 - setup - INFO - Formatted Time: 2024-08-23
+2024-08-28 19:07:44,009 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[35]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:44,019 - setup - INFO - Title: Indonesian court orders cash payments to toxic cough syrup families ...
+2024-08-28 19:07:44,031 - setup - INFO - Description: 6 days ago ... Last year, a criminal court found East Java-based Afi Farma guilty of negligence and jailed officials for not testing the ingredients sent by ...
+2024-08-28 19:07:44,109 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-73.png"><img src="screenshots/selenium-element-screenshot-73.png" width="400px"></a>
+2024-08-28 19:07:44,109 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-73.png
+2024-08-28 19:07:44,110 - setup - INFO - Search word count: 1
+2024-08-28 19:07:44,110 - setup - INFO - Writing row: {'Title': 'Indonesian court orders cash payments to toxic cough syrup families ...', 'Date': datetime.date(2024, 8, 23), 'Description': '6 days ago ... Last year, a criminal court found East Java-based Afi Farma guilty of negligence and jailed officials for not testing the ingredients sent by ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-73.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:44,124 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[36]' is displayed.
+2024-08-28 19:07:44,127 - setup - INFO - Auxiliary value: 36
+2024-08-28 19:07:44,128 - setup - INFO - Looking for popup
+2024-08-28 19:07:46,176 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:46,512 - setup - INFO - Looking for date field
+2024-08-28 19:07:46,546 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[36]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:46,560 - setup - INFO - Time: Last update 27 Aug 2024
+2024-08-28 19:07:46,560 - setup - INFO - Formatted Time: 2024-08-27
+2024-08-28 19:07:46,571 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[36]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:46,581 - setup - INFO - Title: Mapped: New mpox cases reported. What countries have it now ...
+2024-08-28 19:07:46,594 - setup - INFO - Description: 6 days ago ... ... test results were released. Europe. Sweden (one case, zero deaths) ... However, sustained transmission might be low in Europe if cases are quickly ...
+2024-08-28 19:07:46,656 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-74.png"><img src="screenshots/selenium-element-screenshot-74.png" width="400px"></a>
+2024-08-28 19:07:46,657 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-74.png
+2024-08-28 19:07:46,657 - setup - INFO - Search word count: 1
+2024-08-28 19:07:46,658 - setup - INFO - Writing row: {'Title': 'Mapped: New mpox cases reported. What countries have it now ...', 'Date': datetime.date(2024, 8, 27), 'Description': '6 days ago ... ... test results were released. Europe. Sweden (one case, zero deaths) ... However, sustained transmission might be low in Europe if cases are quickly ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-74.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:46,673 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[37]' is displayed.
+2024-08-28 19:07:46,675 - setup - INFO - Auxiliary value: 37
+2024-08-28 19:07:46,676 - setup - INFO - Looking for popup
+2024-08-28 19:07:48,723 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:49,070 - setup - INFO - Looking for date field
+2024-08-28 19:07:49,086 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[37]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:49,098 - setup - INFO - Time: 22 Aug 2024
+2024-08-28 19:07:49,099 - setup - INFO - Formatted Time: 2024-08-22
+2024-08-28 19:07:49,110 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[37]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:49,120 - setup - INFO - Title: Thailand confirms Asia's first known case of new mpox strain ...
+2024-08-28 19:07:49,134 - setup - INFO - Description: 6 days ago ... Health authorities say patient travelled from Africa, instruct new arrivals from 42 'risk countries' to undergo testing.
+2024-08-28 19:07:49,209 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-75.png"><img src="screenshots/selenium-element-screenshot-75.png" width="400px"></a>
+2024-08-28 19:07:49,210 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-75.png
+2024-08-28 19:07:49,210 - setup - INFO - Search word count: 1
+2024-08-28 19:07:49,210 - setup - INFO - Writing row: {'Title': "Thailand confirms Asia's first known case of new mpox strain ...", 'Date': datetime.date(2024, 8, 22), 'Description': "6 days ago ... Health authorities say patient travelled from Africa, instruct new arrivals from 42 'risk countries' to undergo testing.", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-75.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:49,228 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[38]' is displayed.
+2024-08-28 19:07:49,233 - setup - INFO - Auxiliary value: 38
+2024-08-28 19:07:49,233 - setup - INFO - Looking for popup
+2024-08-28 19:07:51,242 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:51,562 - setup - INFO - Looking for date field
+2024-08-28 19:07:51,579 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[38]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:51,592 - setup - INFO - Time: 21 Aug 2024
+2024-08-28 19:07:51,592 - setup - INFO - Formatted Time: 2024-08-21
+2024-08-28 19:07:51,603 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[38]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:51,614 - setup - INFO - Title: Khamenei's calculus: Iran supreme leader faces a bitter choice on ...
+2024-08-28 19:07:51,627 - setup - INFO - Description: 8 days ago ... Ultimately, the choices before Khamenei are like the bitter cups he must drink from – the supreme leader faces a test of endurance as he ...
+2024-08-28 19:07:51,707 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-76.png"><img src="screenshots/selenium-element-screenshot-76.png" width="400px"></a>
+2024-08-28 19:07:51,707 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-76.png
+2024-08-28 19:07:51,707 - setup - INFO - Search word count: 1
+2024-08-28 19:07:51,707 - setup - INFO - Writing row: {'Title': "Khamenei's calculus: Iran supreme leader faces a bitter choice on ...", 'Date': datetime.date(2024, 8, 21), 'Description': '8 days ago ... Ultimately, the choices before Khamenei are like the bitter cups he must drink from – the supreme leader faces a test of endurance as he ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-76.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:51,724 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[39]' is displayed.
+2024-08-28 19:07:51,730 - setup - INFO - Auxiliary value: 39
+2024-08-28 19:07:51,731 - setup - INFO - Looking for popup
+2024-08-28 19:07:53,738 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:54,060 - setup - INFO - Looking for date field
+2024-08-28 19:07:54,076 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[39]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:54,086 - setup - INFO - Time: 21 Aug 2024
+2024-08-28 19:07:54,088 - setup - INFO - Formatted Time: 2024-08-21
+2024-08-28 19:07:54,099 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[39]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:54,110 - setup - INFO - Title: Thailand says mpox detected in European who travelled from Africa ...
+2024-08-28 19:07:54,125 - setup - INFO - Description: 8 days ago ... Thailand has detected an mpox case in a European man who arrived from Africa last week and is awaiting test results to determine the strain, ...
+2024-08-28 19:07:54,189 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-77.png"><img src="screenshots/selenium-element-screenshot-77.png" width="400px"></a>
+2024-08-28 19:07:54,190 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-77.png
+2024-08-28 19:07:54,191 - setup - INFO - Search word count: 1
+2024-08-28 19:07:54,191 - setup - INFO - Writing row: {'Title': 'Thailand says mpox detected in European who travelled from Africa ...', 'Date': datetime.date(2024, 8, 21), 'Description': '8 days ago ... Thailand has detected an mpox case in a European man who arrived from Africa last week and is awaiting test results to determine the strain, ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-77.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:54,204 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[40]' is displayed.
+2024-08-28 19:07:54,209 - setup - INFO - Auxiliary value: 40
+2024-08-28 19:07:54,209 - setup - INFO - Looking for popup
+2024-08-28 19:07:56,288 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:07:56,610 - setup - INFO - Looking for date field
+2024-08-28 19:07:56,629 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[40]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:56,641 - setup - INFO - Time: Last update 21 Aug 2024
+2024-08-28 19:07:56,642 - setup - INFO - Formatted Time: 2024-08-21
+2024-08-28 19:07:56,653 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[40]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:07:56,664 - setup - INFO - Title: Players allege double standards after Sinner escapes tennis doping ...
+2024-08-28 19:07:56,677 - setup - INFO - Description: 8 days ago ... Tennis player Jannik Sinner on court. World number one Jannik Sinner failed two drug tests in March 2024 but has been cleared of wrongdoing by ...
+2024-08-28 19:07:56,737 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-78.png"><img src="screenshots/selenium-element-screenshot-78.png" width="400px"></a>
+2024-08-28 19:07:56,737 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-78.png
+2024-08-28 19:07:56,737 - setup - INFO - Search word count: 1
+2024-08-28 19:07:56,738 - setup - INFO - Writing row: {'Title': 'Players allege double standards after Sinner escapes tennis doping ...', 'Date': datetime.date(2024, 8, 21), 'Description': '8 days ago ... Tennis player Jannik Sinner on court. World number one Jannik Sinner failed two drug tests in March 2024 but has been cleared of wrongdoing by ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-78.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:07:58,747 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[41]' not found.</i>
+2024-08-28 19:07:58,764 - setup - INFO - Attempt 1 of 5
+2024-08-28 19:07:58,764 - setup - INFO - Looking for popup
+2024-08-28 19:08:00,828 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:01,146 - RobotFramework - INFO - Element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.285")>' is displayed.
+2024-08-28 19:08:01,147 - RobotFramework - INFO - Clicking element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.285")>'.
+2024-08-28 19:08:01,206 - setup - INFO - Success at attempt 1
+2024-08-28 19:08:01,206 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[42]
+2024-08-28 19:08:02,394 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[42]' is displayed.
+2024-08-28 19:08:02,405 - setup - INFO - Auxiliary value: 42
+2024-08-28 19:08:02,406 - setup - INFO - Looking for popup
+2024-08-28 19:08:04,487 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:04,812 - setup - INFO - Looking for date field
+2024-08-28 19:08:04,826 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[42]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:04,837 - setup - INFO - Time: Last update 22 Aug 2024
+2024-08-28 19:08:04,838 - setup - INFO - Formatted Time: 2024-08-22
+2024-08-28 19:08:04,848 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[42]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:04,859 - setup - INFO - Title: Footballer Cristiano Ronaldo breaks new YouTube channel record ...
+2024-08-28 19:08:04,870 - setup - INFO - Description: 8 days ago ... ... tests to win his first. Ronaldo says he will probably retire at Al Nassr in two or three years. Al Nassr's Cristiano Ronaldo greets his ...
+2024-08-28 19:08:04,939 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-79.png"><img src="screenshots/selenium-element-screenshot-79.png" width="400px"></a>
+2024-08-28 19:08:04,940 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-79.png
+2024-08-28 19:08:04,941 - setup - INFO - Search word count: 1
+2024-08-28 19:08:04,941 - setup - INFO - Writing row: {'Title': 'Footballer Cristiano Ronaldo breaks new YouTube channel record ...', 'Date': datetime.date(2024, 8, 22), 'Description': "8 days ago ... ... tests to win his first. Ronaldo says he will probably retire at Al Nassr in two or three years. Al Nassr's Cristiano Ronaldo greets his ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-79.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:04,954 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[43]' is displayed.
+2024-08-28 19:08:04,958 - setup - INFO - Auxiliary value: 43
+2024-08-28 19:08:04,958 - setup - INFO - Looking for popup
+2024-08-28 19:08:07,014 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:07,383 - setup - INFO - Looking for date field
+2024-08-28 19:08:07,407 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[43]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:07,420 - setup - INFO - Time: 20 Aug 2024
+2024-08-28 19:08:07,421 - setup - INFO - Formatted Time: 2024-08-20
+2024-08-28 19:08:07,432 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[43]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:07,442 - setup - INFO - Title: Kursk incursion lifts Ukraine's hopes but some expect 'nightmare' in ...
+2024-08-28 19:08:07,455 - setup - INFO - Description: Aug 19, 2024 ... He snubbed battle-tested generals to appoint his former bodyguard Alexei Dyumin, who has never commanded military units, as the person in ...
+2024-08-28 19:08:07,521 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-80.png"><img src="screenshots/selenium-element-screenshot-80.png" width="400px"></a>
+2024-08-28 19:08:07,522 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-80.png
+2024-08-28 19:08:07,522 - setup - INFO - Search word count: 1
+2024-08-28 19:08:07,522 - setup - INFO - Writing row: {'Title': "Kursk incursion lifts Ukraine's hopes but some expect 'nightmare' in ...", 'Date': datetime.date(2024, 8, 20), 'Description': 'Aug 19, 2024 ... He snubbed battle-tested generals to appoint his former bodyguard Alexei Dyumin, who has never commanded military units, as the person in ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-80.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:07,539 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[44]' is displayed.
+2024-08-28 19:08:07,545 - setup - INFO - Auxiliary value: 44
+2024-08-28 19:08:07,545 - setup - INFO - Looking for popup
+2024-08-28 19:08:09,615 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:09,916 - setup - INFO - Looking for date field
+2024-08-28 19:08:09,934 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[44]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:09,948 - setup - INFO - Time: Last update 21 Aug 2024
+2024-08-28 19:08:09,949 - setup - INFO - Formatted Time: 2024-08-21
+2024-08-28 19:08:09,977 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[44]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:09,989 - setup - INFO - Title: EU lists lower tariff on China-made Teslas as it revises duties | Trade ...
+2024-08-28 19:08:10,002 - setup - INFO - Description: Aug 19, 2024 ... Video shows rocket engine explode during test at new Scottish spaceport. list 4 of 4. 'Empty words': Advocates say Biden's Gaza ceasefire nod ...
+2024-08-28 19:08:10,072 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-81.png"><img src="screenshots/selenium-element-screenshot-81.png" width="400px"></a>
+2024-08-28 19:08:10,072 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-81.png
+2024-08-28 19:08:10,073 - setup - INFO - Search word count: 1
+2024-08-28 19:08:10,073 - setup - INFO - Writing row: {'Title': 'EU lists lower tariff on China-made Teslas as it revises duties | Trade ...', 'Date': datetime.date(2024, 8, 21), 'Description': "Aug 19, 2024 ... Video shows rocket engine explode during test at new Scottish spaceport. list 4 of 4. 'Empty words': Advocates say Biden's Gaza ceasefire nod ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-81.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:10,094 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[45]' is displayed.
+2024-08-28 19:08:10,098 - setup - INFO - Auxiliary value: 45
+2024-08-28 19:08:10,098 - setup - INFO - Looking for popup
+2024-08-28 19:08:12,153 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:12,466 - setup - INFO - Looking for date field
+2024-08-28 19:08:12,486 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[45]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:12,498 - setup - INFO - Time: Last update 20 Aug 2024
+2024-08-28 19:08:12,498 - setup - INFO - Formatted Time: 2024-08-20
+2024-08-28 19:08:12,508 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[45]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:12,518 - setup - INFO - Title: Cricket: Samoa's Visser breaks men's T20I record with 39 runs in ...
+2024-08-28 19:08:12,532 - setup - INFO - Description: Aug 19, 2024 ... India's T20 World Cup winning captain will stay in charge of ODI and Test teams, BCCI says. Published On 8 Jul 20248 Jul 2024. Rohit ...
+2024-08-28 19:08:12,607 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-82.png"><img src="screenshots/selenium-element-screenshot-82.png" width="400px"></a>
+2024-08-28 19:08:12,607 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-82.png
+2024-08-28 19:08:12,608 - setup - INFO - Search word count: 1
+2024-08-28 19:08:12,608 - setup - INFO - Writing row: {'Title': "Cricket: Samoa's Visser breaks men's T20I record with 39 runs in ...", 'Date': datetime.date(2024, 8, 20), 'Description': "Aug 19, 2024 ... India's T20 World Cup winning captain will stay in charge of ODI and Test teams, BCCI says. Published On 8 Jul 20248 Jul 2024. Rohit ...", 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-82.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:12,622 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[46]' is displayed.
+2024-08-28 19:08:12,627 - setup - INFO - Auxiliary value: 46
+2024-08-28 19:08:12,627 - setup - INFO - Looking for popup
+2024-08-28 19:08:14,633 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:14,973 - setup - INFO - Looking for date field
+2024-08-28 19:08:14,988 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[46]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:15,000 - setup - INFO - Time: 20 Aug 2024
+2024-08-28 19:08:15,000 - setup - INFO - Formatted Time: 2024-08-20
+2024-08-28 19:08:15,011 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[46]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:15,022 - setup - INFO - Title: Video shows rocket engine explode during test at new Scottish ...
+2024-08-28 19:08:15,037 - setup - INFO - Description: Aug 19, 2024 ... A rocket engine exploded during a test at the new SaxaVord spaceport in Scotland that officials hope will open for operation later this year ...
+2024-08-28 19:08:15,105 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-83.png"><img src="screenshots/selenium-element-screenshot-83.png" width="400px"></a>
+2024-08-28 19:08:15,105 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-83.png
+2024-08-28 19:08:15,105 - setup - INFO - Search word count: 2
+2024-08-28 19:08:15,106 - setup - INFO - Writing row: {'Title': 'Video shows rocket engine explode during test at new Scottish ...', 'Date': datetime.date(2024, 8, 20), 'Description': 'Aug 19, 2024 ... A rocket engine exploded during a test at the new SaxaVord spaceport in Scotland that officials hope will open for operation later this year ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-83.png', 'Count of Phrases': 2, 'Contains Money': False}
+2024-08-28 19:08:15,121 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[47]' is displayed.
+2024-08-28 19:08:15,126 - setup - INFO - Auxiliary value: 47
+2024-08-28 19:08:15,126 - setup - INFO - Looking for popup
+2024-08-28 19:08:17,134 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:17,471 - setup - INFO - Looking for date field
+2024-08-28 19:08:17,510 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[47]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:17,547 - setup - INFO - Time: Last update 19 Aug 2024
+2024-08-28 19:08:17,547 - setup - INFO - Formatted Time: 2024-08-19
+2024-08-28 19:08:17,557 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[47]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:17,567 - setup - INFO - Title: After COVID and Ebola, doctors take on mpox amid conflict in ...
+2024-08-28 19:08:17,579 - setup - INFO - Description: Aug 18, 2024 ... Although some antiviral drugs are being tested internationally, they are not yet available here. Congolese health authorities have instead ...
+2024-08-28 19:08:17,654 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-84.png"><img src="screenshots/selenium-element-screenshot-84.png" width="400px"></a>
+2024-08-28 19:08:17,655 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-84.png
+2024-08-28 19:08:17,655 - setup - INFO - Search word count: 1
+2024-08-28 19:08:17,655 - setup - INFO - Writing row: {'Title': 'After COVID and Ebola, doctors take on mpox amid conflict in ...', 'Date': datetime.date(2024, 8, 19), 'Description': 'Aug 18, 2024 ... Although some antiviral drugs are being tested internationally, they are not yet available here. Congolese health authorities have instead ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-84.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:17,672 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[48]' is displayed.
+2024-08-28 19:08:17,676 - setup - INFO - Auxiliary value: 48
+2024-08-28 19:08:17,677 - setup - INFO - Looking for popup
+2024-08-28 19:08:19,727 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:20,074 - setup - INFO - Looking for date field
+2024-08-28 19:08:20,088 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[48]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:20,098 - setup - INFO - Time: Last update 19 Aug 2024
+2024-08-28 19:08:20,099 - setup - INFO - Formatted Time: 2024-08-19
+2024-08-28 19:08:20,109 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[48]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:20,119 - setup - INFO - Title: Philippines reports new mpox case with no history of foreign travel ...
+2024-08-28 19:08:20,132 - setup - INFO - Description: Aug 18, 2024 ... Philippine health officials received five suspected cases of the mpox in the last week, but only a 33-year-old male tested positive for the ...
+2024-08-28 19:08:20,207 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-85.png"><img src="screenshots/selenium-element-screenshot-85.png" width="400px"></a>
+2024-08-28 19:08:20,207 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-85.png
+2024-08-28 19:08:20,208 - setup - INFO - Search word count: 1
+2024-08-28 19:08:20,209 - setup - INFO - Writing row: {'Title': 'Philippines reports new mpox case with no history of foreign travel ...', 'Date': datetime.date(2024, 8, 19), 'Description': 'Aug 18, 2024 ... Philippine health officials received five suspected cases of the mpox in the last week, but only a 33-year-old male tested positive for the ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-85.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:20,225 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[49]' is displayed.
+2024-08-28 19:08:20,230 - setup - INFO - Auxiliary value: 49
+2024-08-28 19:08:20,230 - setup - INFO - Looking for popup
+2024-08-28 19:08:22,270 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:22,609 - setup - INFO - Looking for date field
+2024-08-28 19:08:22,632 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[49]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:22,644 - setup - INFO - Time: Last update 19 Aug 2024
+2024-08-28 19:08:22,645 - setup - INFO - Formatted Time: 2024-08-19
+2024-08-28 19:08:22,655 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[49]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:22,666 - setup - INFO - Title: India vs Australia test series 2024/25: Cummins sees Marsh, Green ...
+2024-08-28 19:08:22,680 - setup - INFO - Description: Aug 18, 2024 ... Pat Cummins expects his two powerful all-rounders to make a larger impact in the upcoming cricket test series.
+2024-08-28 19:08:22,754 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-86.png"><img src="screenshots/selenium-element-screenshot-86.png" width="400px"></a>
+2024-08-28 19:08:22,755 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-86.png
+2024-08-28 19:08:22,755 - setup - INFO - Search word count: 2
+2024-08-28 19:08:22,755 - setup - INFO - Writing row: {'Title': 'India vs Australia test series 2024/25: Cummins sees Marsh, Green ...', 'Date': datetime.date(2024, 8, 19), 'Description': 'Aug 18, 2024 ... Pat Cummins expects his two powerful all-rounders to make a larger impact in the upcoming cricket test series.', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-86.png', 'Count of Phrases': 2, 'Contains Money': False}
+2024-08-28 19:08:22,773 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[50]' is displayed.
+2024-08-28 19:08:22,779 - setup - INFO - Auxiliary value: 50
+2024-08-28 19:08:22,779 - setup - INFO - Looking for popup
+2024-08-28 19:08:24,815 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:25,139 - setup - INFO - Looking for date field
+2024-08-28 19:08:25,158 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[50]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:25,172 - setup - INFO - Time: Last update 20 Aug 2024
+2024-08-28 19:08:25,172 - setup - INFO - Formatted Time: 2024-08-20
+2024-08-28 19:08:25,183 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[50]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:25,195 - setup - INFO - Title: How far has mpox spread and how can you protect yourself ...
+2024-08-28 19:08:25,222 - setup - INFO - Description: Aug 16, 2024 ... There is no current treatment for mpox but some antiviral drugs are being tested, Marks said. “There is, however, vaccination, which is ...
+2024-08-28 19:08:25,291 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-87.png"><img src="screenshots/selenium-element-screenshot-87.png" width="400px"></a>
+2024-08-28 19:08:25,292 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-87.png
+2024-08-28 19:08:25,293 - setup - INFO - Search word count: 1
+2024-08-28 19:08:25,294 - setup - INFO - Writing row: {'Title': 'How far has mpox spread and how can you protect yourself ...', 'Date': datetime.date(2024, 8, 20), 'Description': 'Aug 16, 2024 ... There is no current treatment for mpox but some antiviral drugs are being tested, Marks said. “There is, however, vaccination, which is ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-87.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:27,345 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[51]' not found.</i>
+2024-08-28 19:08:27,359 - setup - INFO - Attempt 1 of 5
+2024-08-28 19:08:27,360 - setup - INFO - Looking for popup
+2024-08-28 19:08:29,440 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:29,770 - RobotFramework - INFO - Element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.347")>' is displayed.
+2024-08-28 19:08:29,771 - RobotFramework - INFO - Clicking element '<selenium.webdriver.remote.webelement.WebElement (session="2c6b14d29addef49607b15a60804d1fd", element="f.6910F6371D055D10096D33A276A971C9.d.BAD183C5C27C5134FB9CAF5BD0A1F83F.e.347")>'.
+2024-08-28 19:08:29,821 - setup - INFO - Success at attempt 1
+2024-08-28 19:08:29,822 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[52]
+2024-08-28 19:08:31,083 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[52]' is displayed.
+2024-08-28 19:08:31,094 - setup - INFO - Auxiliary value: 52
+2024-08-28 19:08:31,094 - setup - INFO - Looking for popup
+2024-08-28 19:08:33,109 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:33,447 - setup - INFO - Looking for date field
+2024-08-28 19:08:33,463 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[52]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:33,474 - setup - INFO - Time: Last update 17 Aug 2024
+2024-08-28 19:08:33,475 - setup - INFO - Formatted Time: 2024-08-17
+2024-08-28 19:08:33,484 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[52]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:33,494 - setup - INFO - Title: Pakistan says one case of mpox virus detected, European agency ...
+2024-08-28 19:08:33,505 - setup - INFO - Description: Aug 15, 2024 ... ... tests if they see symptoms of the disease in any passenger returning from abroad. The disease caused by the virus leads to flu-like symptoms ...
+2024-08-28 19:08:33,572 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-88.png"><img src="screenshots/selenium-element-screenshot-88.png" width="400px"></a>
+2024-08-28 19:08:33,572 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-88.png
+2024-08-28 19:08:33,573 - setup - INFO - Search word count: 1
+2024-08-28 19:08:33,574 - setup - INFO - Writing row: {'Title': 'Pakistan says one case of mpox virus detected, European agency ...', 'Date': datetime.date(2024, 8, 17), 'Description': 'Aug 15, 2024 ... ... tests if they see symptoms of the disease in any passenger returning from abroad. The disease caused by the virus leads to flu-like symptoms ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-88.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:33,586 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[53]' is displayed.
+2024-08-28 19:08:33,590 - setup - INFO - Auxiliary value: 53
+2024-08-28 19:08:33,591 - setup - INFO - Looking for popup
+2024-08-28 19:08:35,664 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:35,997 - setup - INFO - Looking for date field
+2024-08-28 19:08:36,023 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[53]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:36,044 - setup - INFO - Time: Last update 16 Aug 2024
+2024-08-28 19:08:36,045 - setup - INFO - Formatted Time: 2024-08-16
+2024-08-28 19:08:36,058 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[53]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:36,069 - setup - INFO - Title: Sweden confirms first case of mpox strain outside Africa | Health ...
+2024-08-28 19:08:36,082 - setup - INFO - Description: Aug 14, 2024 ... FILE PHOTO: A person holds a test tube labelled "Bird Flu", in. Photos: Africa's cholera crisis is worse than ever. In Southern and East ...
+2024-08-28 19:08:36,151 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-89.png"><img src="screenshots/selenium-element-screenshot-89.png" width="400px"></a>
+2024-08-28 19:08:36,151 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-89.png
+2024-08-28 19:08:36,152 - setup - INFO - Search word count: 1
+2024-08-28 19:08:36,152 - setup - INFO - Writing row: {'Title': 'Sweden confirms first case of mpox strain outside Africa | Health ...', 'Date': datetime.date(2024, 8, 16), 'Description': 'Aug 14, 2024 ... FILE PHOTO: A person holds a test tube labelled "Bird Flu", in. Photos: Africa\'s cholera crisis is worse than ever. In Southern and East ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-89.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:36,166 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[54]' is displayed.
+2024-08-28 19:08:36,169 - setup - INFO - Auxiliary value: 54
+2024-08-28 19:08:36,169 - setup - INFO - Looking for popup
+2024-08-28 19:08:38,255 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:38,606 - setup - INFO - Looking for date field
+2024-08-28 19:08:38,624 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[54]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:38,638 - setup - INFO - Time: Last update 17 Aug 2024
+2024-08-28 19:08:38,639 - setup - INFO - Formatted Time: 2024-08-17
+2024-08-28 19:08:38,649 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[54]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:38,662 - setup - INFO - Title: What is mpox and why has WHO declared it a global health ...
+2024-08-28 19:08:38,679 - setup - INFO - Description: Aug 13, 2024 ... Mpox can be identified by testing a sample of fluid swabbed from the rash. Why has mpox been declared a global emergency? On Wednesday, the ...
+2024-08-28 19:08:38,769 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-90.png"><img src="screenshots/selenium-element-screenshot-90.png" width="400px"></a>
+2024-08-28 19:08:38,770 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-90.png
+2024-08-28 19:08:38,770 - setup - INFO - Search word count: 1
+2024-08-28 19:08:38,770 - setup - INFO - Writing row: {'Title': 'What is mpox and why has WHO declared it a global health ...', 'Date': datetime.date(2024, 8, 17), 'Description': 'Aug 13, 2024 ... Mpox can be identified by testing a sample of fluid swabbed from the rash. Why has mpox been declared a global emergency? On Wednesday, the ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-90.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:38,786 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[55]' is displayed.
+2024-08-28 19:08:38,790 - setup - INFO - Auxiliary value: 55
+2024-08-28 19:08:38,790 - setup - INFO - Looking for popup
+2024-08-28 19:08:40,804 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:41,144 - setup - INFO - Looking for date field
+2024-08-28 19:08:41,165 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[55]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:41,177 - setup - INFO - Time: 12 Aug 2024
+2024-08-28 19:08:41,177 - setup - INFO - Formatted Time: 2024-08-12
+2024-08-28 19:08:41,189 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[55]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:41,201 - setup - INFO - Title: What does Sheikh Hasina's resignation mean for India-Bangladesh ...
+2024-08-28 19:08:41,215 - setup - INFO - Description: Aug 11, 2024 ... That may not happen with exiled BNP opposition leader Tarique Rahman due to return to Bangladesh, according to his party. “The time-tested ...
+2024-08-28 19:08:41,287 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-91.png"><img src="screenshots/selenium-element-screenshot-91.png" width="400px"></a>
+2024-08-28 19:08:41,288 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-91.png
+2024-08-28 19:08:41,288 - setup - INFO - Search word count: 1
+2024-08-28 19:08:41,289 - setup - INFO - Writing row: {'Title': "What does Sheikh Hasina's resignation mean for India-Bangladesh ...", 'Date': datetime.date(2024, 8, 12), 'Description': 'Aug 11, 2024 ... That may not happen with exiled BNP opposition leader Tarique Rahman due to return to Bangladesh, according to his party. “The time-tested ...', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-91.png', 'Count of Phrases': 1, 'Contains Money': False}
+2024-08-28 19:08:41,305 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[56]' is displayed.
+2024-08-28 19:08:41,309 - setup - INFO - Auxiliary value: 56
+2024-08-28 19:08:41,309 - setup - INFO - Looking for popup
+2024-08-28 19:08:43,317 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:43,644 - setup - INFO - Looking for date field
+2024-08-28 19:08:43,665 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[56]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:43,675 - setup - INFO - Time: 4 Aug 2024
+2024-08-28 19:08:43,676 - setup - INFO - Formatted Time: 2024-08-04
+2024-08-28 19:08:43,687 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[56]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:43,699 - setup - INFO - Title: IBA gender tests on two Olympic boxers flawed and illegitimate, says ...
+2024-08-28 19:08:43,713 - setup - INFO - Description: Aug 3, 2024 ... The International Olympic Committee stands with the two Olympic boxers in gender test debate, cites flawed IBA testing.
+2024-08-28 19:08:43,787 - RobotFramework - INFO - </td></tr><tr><td colspan="3"><a href="screenshots/selenium-element-screenshot-92.png"><img src="screenshots/selenium-element-screenshot-92.png" width="400px"></a>
+2024-08-28 19:08:43,788 - setup - INFO - Image: c:\Code\Projects\thoughtfulai\screenshots\selenium-element-screenshot-92.png
+2024-08-28 19:08:43,789 - setup - INFO - Search word count: 3
+2024-08-28 19:08:43,789 - setup - INFO - Writing row: {'Title': 'IBA gender tests on two Olympic boxers flawed and illegitimate, says ...', 'Date': datetime.date(2024, 8, 4), 'Description': 'Aug 3, 2024 ... The International Olympic Committee stands with the two Olympic boxers in gender test debate, cites flawed IBA testing.', 'Picture Filename': 'c:\\Code\\Projects\\thoughtfulai\\screenshots\\selenium-element-screenshot-92.png', 'Count of Phrases': 3, 'Contains Money': False}
+2024-08-28 19:08:43,803 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[57]' is displayed.
+2024-08-28 19:08:43,807 - setup - INFO - Auxiliary value: 57
+2024-08-28 19:08:43,808 - setup - INFO - Looking for popup
+2024-08-28 19:08:45,851 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 19:08:46,183 - setup - INFO - Looking for date field
+2024-08-28 19:08:46,202 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[57]/div[2]/footer/div/div/div/div/span[2]' is displayed.
+2024-08-28 19:08:46,213 - setup - INFO - Time: 26 Jul 2024
+2024-08-28 19:08:46,214 - setup - INFO - Formatted Time: 2024-07-26
+2024-08-28 19:08:46,223 - setup - INFO - Breaking
+2024-08-28 19:08:47,054 - setup - INFO - Data successfully written to Excel
