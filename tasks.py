@@ -75,6 +75,7 @@ class Tasks:
 
             browser.wait_until_element_is_visible(xpath, 6)
             while browser.is_element_visible(xpath):
+                browser.delete_all_cookies()
                 self.logger.info(f'Auxiliary value: {i}')
                 self.logger.info('Looking for popup')
                 # Clicks out popup that may appear
