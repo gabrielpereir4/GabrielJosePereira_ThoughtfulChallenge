@@ -8,7 +8,8 @@ class Automation:
         self.automation = Tasks(self.logger)
 
 
-    def run(self, search, time_period):
+    def run(self, search, time_period, item):
+        self.logger.info(item)
         self.setup.clean_screenshots_dir()
         automation = self.automation
         self.logger.info('Testing!')

@@ -4,10 +4,10 @@ from robocorp import workitems
 
 @task
 def main():
-    item = workitems.inputs.current
+    item = workitems.Inputs
     print(item)
     bot = Automation()
-    bot.run('Test', 1)
+    bot.run('Test', 1, item)
 
 if __name__ == "__main__":
     main()
