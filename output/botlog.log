@@ -1,35 +1,55 @@
-2024-08-24 12:13:37,652 - setup - INFO - Log setup finished!
-2024-08-24 12:13:37,654 - setup - INFO - Testing!
-2024-08-24 12:13:37,654 - setup - INFO - Starting Bot
-2024-08-24 12:13:40,795 - RPA.core.webdriver - INFO - Downloaded webdriver to: C:\Users\gabri\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe
-2024-08-24 12:13:41,021 - RPA.Browser.Selenium - INFO - Webdriver version taken into use: ChromeDriver 127.0.6533.119 (bdef6783a05f0b3f885591e7d2c7b2aec1a89dea-refs/branch-heads/6533@{#1999})
+2024-08-28 18:49:43,816 - setup - INFO - Log setup finished!
+2024-08-28 18:49:43,819 - setup - INFO - Testing!
+2024-08-28 18:49:43,819 - setup - INFO - Starting Bot
+2024-08-28 18:49:46,556 - RPA.core.webdriver - INFO - Downloaded webdriver to: C:\Users\gabri\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\128.0.6613.86\chromedriver-win32/chromedriver.exe
+2024-08-28 18:49:46,585 - RPA.Browser.Selenium - INFO - Webdriver version taken into use: ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337})
 
-2024-08-24 12:13:41,022 - RobotFramework - INFO - Creating an instance of the Chrome WebDriver.
-2024-08-24 12:13:42,184 - RPA.Browser.Selenium - INFO - Created Chrome browser (version 127.0.6533) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
-2024-08-24 12:13:42,185 - RobotFramework - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+2024-08-28 18:49:46,586 - RobotFramework - INFO - Creating an instance of the Chrome WebDriver.
+2024-08-28 18:49:47,671 - RPA.Browser.Selenium - INFO - Created Chrome browser (version 128.0.6613) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-08-28 18:49:47,671 - RobotFramework - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
 </td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
-2024-08-24 12:13:42,185 - RobotFramework - INFO - Opening url 'https://www.aljazeera.com/'
-2024-08-24 12:13:42,982 - setup - ERROR - Message: no such window: target window already closed
+2024-08-28 18:49:47,672 - RobotFramework - INFO - Opening url 'https://www.aljazeera.com/'
+2024-08-28 18:50:15,178 - setup - INFO - Browser open!
+2024-08-28 18:50:15,179 - setup - INFO - Looking for Cookies popup
+2024-08-28 18:50:15,224 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>The element 'xpath://*[@id="onetrust-accept-btn-handler"]' should be visible, but it is not.</i>
+2024-08-28 18:50:15,351 - RobotFramework - INFO - Typing text 'Test' into text field 'xpath://*[@id="root"]/div/div[1]/div[2]/div/div/form/div[1]/input'.
+2024-08-28 18:50:16,430 - RobotFramework - INFO - Selecting options from selection list '<selenium.webdriver.remote.webelement.WebElement (session="ac95a1ae3eaa7d79a2211040d32cbb84", element="f.9F3D20C21B98525CC0463AE0E518E1C4.d.8FDCDFBB17D448A23F1E236BDA402B80.e.158")>' by value date.
+2024-08-28 18:50:16,490 - setup - INFO - Current date: 2024-08-28 - Max date is:2024-07-28
+2024-08-28 18:50:16,490 - setup - INFO - Current Xpath: //*[@id="main-content-area"]/div[2]/div[2]/article[1]
+2024-08-28 18:50:17,543 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[1]' is displayed.
+2024-08-28 18:50:17,544 - setup - INFO - Auxiliary value: 1
+2024-08-28 18:50:17,545 - setup - INFO - Looking for popup
+2024-08-28 18:50:17,875 - RobotFramework - INFO - Element 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' is displayed.
+2024-08-28 18:50:17,876 - RobotFramework - INFO - Clicking element 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button'.
+2024-08-28 18:50:18,253 - setup - INFO - Looking for date field
+2024-08-28 18:50:20,305 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 18:50:22,363 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id="main-content-area"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>
+2024-08-28 18:50:22,363 - setup - INFO - Continue: News has no time info
+2024-08-28 18:50:22,378 - RobotFramework - INFO - Element '//*[@id="main-content-area"]/div[2]/div[2]/article[2]' is displayed.
+2024-08-28 18:50:22,379 - setup - INFO - Auxiliary value: 2
+2024-08-28 18:50:22,380 - setup - INFO - Looking for popup
+2024-08-28 18:50:23,841 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id="root"]/div/div[4]/div[2]/div/button' not found.</i>
+2024-08-28 18:50:23,848 - setup - ERROR - Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=127.0.6533.120)
+  (Session info: chrome=128.0.6613.85)
 Stacktrace:
-	GetHandleVerifier [0x00B38923+23283]
-	(No symbol) [0x00AFE934]
-	(No symbol) [0x00A30733]
-	(No symbol) [0x00A0D2E3]
-	(No symbol) [0x00A9A64F]
-	(No symbol) [0x00AAC686]
-	(No symbol) [0x00A941B6]
-	(No symbol) [0x00A68017]
-	(No symbol) [0x00A6890D]
-	GetHandleVerifier [0x00C2A5F3+1013699]
-	GetHandleVerifier [0x00C33E4C+1052700]
-	GetHandleVerifier [0x00C2D4B4+1025668]
-	GetHandleVerifier [0x00B5EA2B+179195]
-	(No symbol) [0x00B06833]
-	(No symbol) [0x00B03198]
-	(No symbol) [0x00B03337]
-	(No symbol) [0x00AFB4BE]
+	GetHandleVerifier [0x01168283+26163]
+	(No symbol) [0x010F9D34]
+	(No symbol) [0x00FF24C3]
+	(No symbol) [0x00FCE27B]
+	(No symbol) [0x0106192F]
+	(No symbol) [0x01073F99]
+	(No symbol) [0x0105AA56]
+	(No symbol) [0x0102BE89]
+	(No symbol) [0x0102C8CD]
+	GetHandleVerifier [0x0143CF73+2994979]
+	GetHandleVerifier [0x014917E9+3341209]
+	GetHandleVerifier [0x011F7B5F+614159]
+	GetHandleVerifier [0x011FF1EC+644508]
+	(No symbol) [0x0110286D]
+	(No symbol) [0x010FF768]
+	(No symbol) [0x010FF905]
+	(No symbol) [0x010F1C86]
 	BaseThreadInitThunk [0x75517BA9+25]
 	RtlInitializeExceptionChain [0x76FDC10B+107]
 	RtlClearBits [0x76FDC08F+191]

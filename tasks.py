@@ -15,7 +15,7 @@ class Tasks:
     def open_browser(self):
         browser = Selenium()
         browser.open_chrome_browser("https://www.aljazeera.com/")
-        browser.switch_window('NEW')
+        browser.delete_all_cookies()
         browser.maximize_browser_window()
         browser.set_selenium_implicit_wait("2 seconds")
         browser.set_screenshot_directory('.\\screenshots')

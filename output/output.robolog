@@ -1,77 +1,77 @@
 V 0.0.4
-T 2024-08-24T15:13:34.169+00:00
-ID 1|6e13fcf9-622b-11ef-a3cf-4c496caf1e95
+T 2024-08-28T21:49:39.618+00:00
+ID 1|6d0aa128-6587-11ef-a81d-4c496caf1e95
 I "sys.platform=win32"
-I "python=3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]"
+I "python=3.11.9 | packaged by Anaconda, Inc. | (main, Apr 19 2024, 16:40:41) [MSC v.1916 64 bit (AMD64)]"
 M a:"main.py - main"
-SR a|0.01
+SR a|0.013
 M c:"Collect tasks"
 M d:"setup"
 M e:""
 P b:c|d|e|e|0
-ST b|0.01
+ST b|0.013
 M f:"regular"
 M g:"\nCollecting task main from: main.py\n"
-C f|g|0.01
+C f|g|0.014
 M h:"stderr"
-M i:"2024-08-24 12:13:36,196 - RPA.core.certificates - INFO - Truststore not in use, HTTPS traffic validated against `certifi` package. (requires Python 3.10.12 and 'pip' 23.2.1 at minimum)\n"
-C h|i|2.027
+M i:"2024-08-28 18:49:41,519 - RPA.core.certificates - INFO - Truststore not in use, HTTPS traffic validated against `certifi` package. (requires Python 3.10.12 and 'pip' 23.2.1 at minimum)\n"
+C h|i|1.901
 M j:"PASS"
-ET j|e|3.483
+ET j|e|4.196
 M l:"main"
-M m:"C:\\Code\\Projects\\thoughtfulai\\main.py"
+M m:"c:\\Code\\Projects\\thoughtfulai\\main.py"
 M n:null
 P k:l|l|m|n|5
-ST k|3.483
+ST k|4.196
 M o:"================================ "
-C f|o|3.483
+C f|o|4.196
 M p:"Running: "
-C f|p|3.483
+C f|p|4.197
 M q:"task_name"
-C q|l|3.483
+C q|l|4.197
 M r:" =================================\n"
-C f|r|3.483
+C f|r|4.197
 M s:"METHOD"
-SE k|s|3.484
+SE k|s|4.197
 M u:"Automation.__init__"
 M v:"automation"
-M w:"C:\\Code\\Projects\\thoughtfulai\\automation.py"
+M w:"c:\\Code\\Projects\\thoughtfulai\\automation.py"
 P t:u|v|w|e|5
-SE t|s|3.484
+SE t|s|4.198
 M y:"Setup.__init__"
-M z:"C:\\Code\\Projects\\thoughtfulai\\setup.py"
+M z:"c:\\Code\\Projects\\thoughtfulai\\setup.py"
 P x:y|d|z|e|5
-SE x|s|3.484
-EE s|j|3.484
+SE x|s|4.198
+EE s|j|4.198
 M B:"Setup.setup_log"
 P A:B|d|z|e|9
-SE A|s|3.484
+SE A|s|4.198
 P C:B|d|z|e|22
 M D:"logger"
 M E:"Logger"
 M F:"<Logger setup (INFO)>"
-AS C|D|E|F|3.484
-M G:"2024-08-24 12:13:37,652 - setup - INFO - Log setup finished!\n"
-C h|G|3.485
+AS C|D|E|F|4.198
+M G:"2024-08-28 18:49:43,816 - setup - INFO - Log setup finished!\n"
+C h|G|4.198
 P H:B|d|z|e|24
-R H|E|F|3.485
-EE s|j|3.485
+R H|E|F|4.199
+EE s|j|4.199
 M J:"Tasks.__init__"
 M K:"tasks"
-M L:"C:\\Code\\Projects\\thoughtfulai\\tasks.py"
+M L:"c:\\Code\\Projects\\thoughtfulai\\tasks.py"
 P I:J|K|L|e|9
-SE I|s|3.485
+SE I|s|4.199
 EA D|E|F
-EE s|j|3.485
-EE s|j|3.485
+EE s|j|4.199
+EE s|j|4.199
 P M:l|l|m|e|6
 M N:"bot"
 M O:"Automation"
-M P:"<automation.Automation object at 0x000002515D9D0310>"
-AS M|N|O|P|3.485
+M P:"<automation.Automation object at 0x00000223DBFD3E10>"
+AS M|N|O|P|4.199
 M R:"Automation.run"
 P Q:R|v|w|e|11
-SE Q|s|3.485
+SE Q|s|4.199
 M S:"search"
 M T:"str"
 M U:"'Test'"
@@ -82,83 +82,83 @@ M X:"1"
 EA V|W|X
 M Z:"Setup.clean_screenshots_dir"
 P Y:Z|d|z|e|27
-SE Y|s|3.485
+SE Y|s|4.199
 M 2:"for file in os.listdir('./output')"
 P 0:2|d|z|e|28
 M 3:"FOR"
-SE 0|3|3.485
+SE 0|3|4.199
 M 5:"Step: for file in os.listdir('./output')"
 P 4:5|d|z|e|28
 M 6:"FOR_STEP"
-SE 4|6|3.485
+SE 4|6|4.199
 M 7:"file"
 M 8:"'botlog.log'"
 EA 7|T|8
 P 9:Z|d|z|e|29
 M aa:"file_path"
 M ab:"'./output\\\\botlog.log'"
-AS 9|aa|T|ab|3.485
-EE 6|j|3.485
-SE 4|6|3.485
+AS 9|aa|T|ab|4.199
+EE 6|j|4.199
+SE 4|6|4.199
 M ac:"'environment_windows_amd64_freeze.yaml'"
 EA 7|T|ac
 M ad:"'./output\\\\environment_windows_amd64_freeze.yaml'"
-AS 9|aa|T|ad|3.485
-EE 6|j|3.485
-SE 4|6|3.485
+AS 9|aa|T|ad|4.199
+EE 6|j|4.199
+SE 4|6|4.199
 M ae:"'excel.xlsx'"
 EA 7|T|ae
 M af:"'./output\\\\excel.xlsx'"
-AS 9|aa|T|af|3.485
-EE 6|j|3.485
-SE 4|6|3.485
+AS 9|aa|T|af|4.199
+EE 6|j|4.2
+SE 4|6|4.2
 M ag:"'journal.run'"
 EA 7|T|ag
 M ah:"'./output\\\\journal.run'"
-AS 9|aa|T|ah|3.485
-EE 6|j|3.485
-SE 4|6|3.485
+AS 9|aa|T|ah|4.2
+EE 6|j|4.2
+SE 4|6|4.2
 M ai:"'log.html'"
 EA 7|T|ai
 M aj:"'./output\\\\log.html'"
-AS 9|aa|T|aj|3.485
-EE 6|j|3.485
-SE 4|6|3.485
+AS 9|aa|T|aj|4.2
+EE 6|j|4.2
+SE 4|6|4.2
 M ak:"'output.robolog'"
 EA 7|T|ak
 M al:"'./output\\\\output.robolog'"
-AS 9|aa|T|al|3.485
-EE 6|j|3.485
-SE 4|6|3.485
+AS 9|aa|T|al|4.2
+EE 6|j|4.2
+SE 4|6|4.2
 M am:"'stderr.log'"
 EA 7|T|am
 M an:"'./output\\\\stderr.log'"
-AS 9|aa|T|an|3.485
-EE 6|j|3.485
-SE 4|6|3.486
+AS 9|aa|T|an|4.2
+EE 6|j|4.2
+SE 4|6|4.2
 M ao:"'stdout.log'"
 EA 7|T|ao
 M ap:"'./output\\\\stdout.log'"
-AS 9|aa|T|ap|3.486
-EE 6|j|3.486
-EE 3|j|3.486
-EE s|j|3.486
+AS 9|aa|T|ap|4.2
+EE 6|j|4.2
+EE 3|j|4.2
+EE s|j|4.2
 P aq:R|v|w|e|13
 M ar:"Tasks"
-M as:"<tasks.Tasks object at 0x0000025139EB5350>"
-AS aq|v|ar|as|3.486
-M at:"2024-08-24 12:13:37,654 - setup - INFO - Testing!\n"
-C h|at|3.486
-M au:"2024-08-24 12:13:37,654 - setup - INFO - Starting Bot\n"
-C h|au|3.486
+M as:"<tasks.Tasks object at 0x00000223D7DE6E90>"
+AS aq|v|ar|as|4.2
+M at:"2024-08-28 18:49:43,819 - setup - INFO - Testing!\n"
+C h|at|4.2
+M au:"2024-08-28 18:49:43,819 - setup - INFO - Starting Bot\n"
+C h|au|4.2
 M aw:"Tasks.open_browser"
 P av:aw|K|L|e|15
-SE av|s|3.486
+SE av|s|4.2
 M ay:"Selenium.__init__"
 M az:"RPA.Browser.Selenium"
-M aA:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\RPA\\Browser\\Selenium.py"
+M aA:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\RPA\\Browser\\Selenium.py"
 P ax:ay|az|aA|e|241
-SE ax|s|3.486
+SE ax|s|4.201
 M aB:"args"
 M aC:"tuple"
 M aD:"()"
@@ -167,15 +167,15 @@ M aE:"kwargs"
 M aF:"dict"
 M aG:"{}"
 EA aE|aF|aG
-EE s|j|3.51
+EE s|j|4.225
 P aH:aw|K|L|e|16
 M aI:"browser"
 M aJ:"Selenium"
-M aK:"<RPA.Browser.Selenium.Selenium object at 0x000002513C844710>"
-AS aH|aI|aJ|aK|3.51
+M aK:"<RPA.Browser.Selenium.Selenium object at 0x00000223DA51AC10>"
+AS aH|aI|aJ|aK|4.225
 M aM:"Selenium.open_chrome_browser"
 P aL:aM|az|aA|e|1055
-SE aL|s|3.51
+SE aL|s|4.225
 M aN:"url"
 M aO:"'https://www.aljazeera.com/'"
 EA aN|T|aO
@@ -204,385 +204,765 @@ M a2:"user_agent"
 EA a2|aW|aX
 M a3:"sandbox"
 EA a3|aQ|aR
-M a4:"2024-08-24 12:13:40,795 - RPA.core.webdriver - INFO - Downloaded webdriver to: C:\\Users\\gabri\\AppData\\Local\\robocorp\\webdrivers\\.wdm\\drivers\\chromedriver\\win64\\127.0.6533.119\\chromedriver-win32/chromedriver.exe\n"
-C h|a4|6.627
-M a5:"2024-08-24 12:13:41,021 - RPA.Browser.Selenium - INFO - Webdriver version taken into use: ChromeDriver 127.0.6533.119 (bdef6783a05f0b3f885591e7d2c7b2aec1a89dea-refs/branch-heads/6533@{#1999})\n\n"
-C h|a5|6.854
-M a6:"2024-08-24 12:13:41,022 - RobotFramework - INFO - Creating an instance of the Chrome WebDriver.\n"
-C h|a6|6.854
-M a7:"2024-08-24 12:13:42,184 - RPA.Browser.Selenium - INFO - Created Chrome browser (version 127.0.6533) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox\n"
-C h|a7|8.015
-M a8:"2024-08-24 12:13:42,185 - RobotFramework - INFO - <p>Attempted combinations:</p><div class=\"doc\"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)\n</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>\n"
-C h|a8|8.016
-M a9:"2024-08-24 12:13:42,185 - RobotFramework - INFO - Opening url 'https://www.aljazeera.com/'\n"
-C h|a9|8.016
+M a4:"2024-08-28 18:49:46,556 - RPA.core.webdriver - INFO - Downloaded webdriver to: C:\\Users\\gabri\\AppData\\Local\\robocorp\\webdrivers\\.wdm\\drivers\\chromedriver\\win64\\128.0.6613.86\\chromedriver-win32/chromedriver.exe\n"
+C h|a4|6.939
+M a5:"2024-08-28 18:49:46,585 - RPA.Browser.Selenium - INFO - Webdriver version taken into use: ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337})\n\n"
+C h|a5|6.967
+M a6:"2024-08-28 18:49:46,586 - RobotFramework - INFO - Creating an instance of the Chrome WebDriver.\n"
+C h|a6|6.967
+M a7:"2024-08-28 18:49:47,671 - RPA.Browser.Selenium - INFO - Created Chrome browser (version 128.0.6613) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox\n"
+C h|a7|8.053
+M a8:"2024-08-28 18:49:47,671 - RobotFramework - INFO - <p>Attempted combinations:</p><div class=\"doc\"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)\n</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>\n"
+C h|a8|8.054
+M a9:"2024-08-28 18:49:47,672 - RobotFramework - INFO - Opening url 'https://www.aljazeera.com/'\n"
+C h|a9|8.054
 P ba:aM|az|aA|e|1073
-R ba|W|X|8.808
-EE s|j|8.809
-M bc:"WindowKeywords.maximize_browser_window"
-P bb:bc|az|aA|e|170
-SE bb|s|8.809
+R ba|W|X|35.416
+EE s|j|35.416
+M bc:"CookieKeywords.delete_all_cookies"
+M bd:"SeleniumLibrary.keywords.cookie"
+M be:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\keywords\\cookie.py"
+P bb:bc|bd|be|e|57
+SE bb|s|35.416
+EE s|j|35.512
+M bg:"WindowKeywords.maximize_browser_window"
+P bf:bg|az|aA|e|170
+SE bf|s|35.512
 EA aB|aC|aD
 EA aE|aF|aG
-M bd:"NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=127.0.6533.120)\nStacktrace:\n\tGetHandleVerifier [0x00B38923+23283]\n\t(No symbol) [0x00AFE934]\n\t(No symbol) [0x00A30733]\n\t(No symbol) [0x00A0D2E3]\n\t(No symbol) [0x00A9A64F]\n\t(No symbol) [0x00AAC686]\n\t(No symbol) [0x00A941B6]\n\t(No symbol) [0x00A68017]\n\t(No symbol) [0x00A6890D]\n\tGetHandleVerifier [0x00C2A5F3+1013699]\n\tGetHandleVerifier [0x00C33E4C+1052700]\n\tGetHandleVerifier [0x00C2D4B4+1025668]\n\tGetHandleVerifier [0x00B5EA2B+179195]\n\t(No symbol) [0x00B06833]\n\t(No symbol) [0x00B03198]\n\t(No symbol) [0x00B03337]\n\t(No symbol) [0x00AFB4BE]\n\tBaseThreadInitThunk [0x75517BA9+25]\n\tRtlInitializeExceptionChain [0x76FDC10B+107]\n\tRtlClearBits [0x76FDC08F+191]\n"
-STB bd|8.81
-M be:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\robocorp\\tasks\\_task.py"
-M bf:"run"
-M bg:"return self.method(**kwargs)"
-TBE be|57|bf|bg
-M bh:"self"
-M bi:"Task"
-M bj:"Task(main, status: Status.NOT_RUN)"
-TBV bh|bi|bj
+EE s|j|35.558
+M bi:"BrowserManagementKeywords.set_selenium_implicit_wait"
+M bj:"SeleniumLibrary.keywords.browsermanagement"
+M bk:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\keywords\\browsermanagement.py"
+P bh:bi|bj|bk|e|614
+SE bh|s|35.558
+M bl:"value"
+M bm:"'2 seconds'"
+EA bl|T|bm
+P bn:bi|bj|bk|e|637
+M bo:"'0 seconds'"
+R bn|T|bo|35.56
+EE s|j|35.56
+M bq:"ScreenshotKeywords.set_screenshot_directory"
+M br:"SeleniumLibrary.keywords.screenshot"
+M bs:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\keywords\\screenshot.py"
+P bp:bq|br|bs|e|35
+SE bp|s|35.56
+M bt:"path"
+M bu:"'.\\\\screenshots'"
+EA bt|T|bu
+P bv:bq|br|bs|e|67
+M bw:"'EMBED'"
+R bv|T|bw|35.56
+EE s|j|35.56
+M bx:"2024-08-28 18:50:15,178 - setup - INFO - Browser open!\n"
+C h|bx|35.561
+P by:aw|K|L|e|24
+R by|aJ|aK|35.561
+EE s|j|35.561
+M bA:"Tasks.search"
+P bz:bA|K|L|e|31
+SE bz|s|35.561
+EA S|T|U
+P bB:bA|K|L|e|32
+AS bB|aI|aJ|aK|35.561
+M bC:"2024-08-28 18:50:15,179 - setup - INFO - Looking for Cookies popup\n"
+C h|bC|35.561
+M bE:"Selenium.click_element_if_visible"
+P bD:bE|az|aA|e|1230
+SE bD|s|35.562
+M bF:"locator"
+M bG:"'xpath://*[@id=\"onetrust-accept-btn-handler\"]'"
+EA bF|T|bG
+M bH:"2024-08-28 18:50:15,224 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>The element 'xpath://*[@id=\"onetrust-accept-btn-handler\"]' should be visible, but it is not.</i>\n"
+C h|bH|35.605
+EE s|j|35.605
+M bJ:"Selenium.click_element_when_clickable"
+P bI:bJ|az|aA|e|2232
+SE bI|s|35.606
+M bK:"'xpath://*[@id=\"root\"]/div/div[1]/div[1]/div/header/div[4]/div[2]/button'"
+EA bF|T|bK
+M bL:"timeout"
+EA bL|aW|aX
+EE s|j|35.7
+M bN:"Selenium.input_text_when_element_is_visible"
+P bM:bN|az|aA|e|1244
+SE bM|s|35.7
+M bO:"'xpath://*[@id=\"root\"]/div/div[1]/div[2]/div/div/form/div[1]/input'"
+EA bF|T|bO
+M bP:"text"
+EA bP|T|U
+M bQ:"2024-08-28 18:50:15,351 - RobotFramework - INFO - Typing text 'Test' into text field 'xpath://*[@id=\"root\"]/div/div[1]/div[2]/div/div/form/div[1]/input'.\n"
+C h|bQ|35.734
+EE s|j|35.818
+SE bI|s|35.818
+M bR:"'xpath://*[@id=\"root\"]/div/div[1]/div[2]/div/div/form/div[2]/button'"
+EA bF|T|bR
+EA bL|aW|aX
+EE s|j|35.986
+EE s|j|35.986
+M bT:"Tasks.iterate_news"
+P bS:bT|K|L|e|51
+SE bS|s|35.986
+EA V|W|X
+M bU:"search_word"
+EA bU|T|U
+P bV:bT|K|L|e|52
+AS bV|aI|aJ|aK|35.986
+M bX:"WaitingKeywords.wait_until_element_is_visible"
+M bY:"SeleniumLibrary.keywords.waiting"
+M bZ:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\keywords\\waiting.py"
+P bW:bX|bY|bZ|e|299
+SE bW|s|35.986
+M b0:"'id:search-sort-option'"
+EA bF|T|b0
+EA bL|aW|aX
+M b1:"error"
+EA b1|aW|aX
+EE s|j|36.807
+M b3:"Selenium.get_webelement"
+P b2:b3|az|aA|e|2266
+SE b2|s|36.807
+EA bF|T|b0
+M b4:"parent"
+EA b4|aW|aX
+M b5:"shadow"
+EA b5|aQ|aR
+P b6:b3|az|aA|e|2280
+M b7:"WebElement"
+M b8:"<selenium.webdriver.remote.webelement.WebElement (session=\"ac95a1ae3eaa7d79a2211040d32cbb84\", element=\"f.9F3D20C21B98525CC0463AE0E518E1C4.d.8FDCDFBB17D448A23F1E236BDA402B80.e.158\")>"
+R b6|b7|b8|36.811
+EE s|j|36.811
+P b9:bT|K|L|e|55
+M ca:"sortby"
+AS b9|ca|b7|b8|36.811
+M cc:"SelectElementKeywords.select_from_list_by_value"
+M cd:"SeleniumLibrary.keywords.selectelement"
+M ce:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\keywords\\selectelement.py"
+P cb:cc|cd|ce|e|234
+SE cb|s|36.811
+EA bF|b7|b8
+M cf:"values"
+M cg:"('date',)"
+EA cf|aC|cg
+M ch:"2024-08-28 18:50:16,430 - RobotFramework - INFO - Selecting options from selection list '<selenium.webdriver.remote.webelement.WebElement (session=\"ac95a1ae3eaa7d79a2211040d32cbb84\", element=\"f.9F3D20C21B98525CC0463AE0E518E1C4.d.8FDCDFBB17D448A23F1E236BDA402B80.e.158\")>' by value date.\n"
+C h|ch|36.812
+EE s|j|36.869
+P ci:bT|K|L|e|59
+M cj:"i"
+AS ci|cj|W|X|36.869
+P ck:bT|K|L|e|60
+M cl:"end"
+AS ck|cl|aQ|aR|36.869
+P cm:bT|K|L|e|63
+M cn:"current_date"
+M co:"date"
+M cp:"datetime.date(2024, 8, 28)"
+AS cm|cn|co|cp|36.87
+M cr:"relativedelta.__init__"
+M cs:"dateutil.relativedelta"
+M ct:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\dateutil\\relativedelta.py"
+P cq:cr|cs|ct|e|105
+SE cq|s|36.87
+M cu:"dt1"
+EA cu|aW|aX
+M cv:"dt2"
+EA cv|aW|aX
+M cw:"years"
+M cx:"0"
+EA cw|W|cx
+M cy:"months"
+EA cy|W|X
+M cz:"days"
+EA cz|W|cx
+M cA:"leapdays"
+EA cA|W|cx
+M cB:"weeks"
+EA cB|W|cx
+M cC:"hours"
+EA cC|W|cx
+M cD:"minutes"
+EA cD|W|cx
+M cE:"seconds"
+EA cE|W|cx
+M cF:"microseconds"
+EA cF|W|cx
+M cG:"year"
+EA cG|aW|aX
+M cH:"month"
+EA cH|aW|aX
+M cI:"day"
+EA cI|aW|aX
+M cJ:"weekday"
+EA cJ|aW|aX
+M cK:"yearday"
+EA cK|aW|aX
+M cL:"nlyearday"
+EA cL|aW|aX
+M cM:"hour"
+EA cM|aW|aX
+M cN:"minute"
+EA cN|aW|aX
+M cO:"second"
+EA cO|aW|aX
+M cP:"microsecond"
+EA cP|aW|aX
+EE s|j|36.871
+P cQ:bT|K|L|e|67
+M cR:"aim_date"
+M cS:"datetime.date(2024, 7, 28)"
+AS cQ|cR|co|cS|36.871
+M cT:"2024-08-28 18:50:16,490 - setup - INFO - Current date: 2024-08-28 - Max date is:2024-07-28\n"
+C h|cT|36.871
+M cV:"while True"
+P cU:cV|K|L|e|69
+M cW:"WHILE"
+SE cU|cW|36.871
+M cY:"Step: while True"
+P cX:cY|K|L|e|69
+M cZ:"WHILE_STEP"
+SE cX|cZ|36.871
+P c0:bT|K|L|e|71
+M c1:"xpath"
+M c2:"'//*[@id=\"main-content-area\"]/div[2]/div[2]/article[1]'"
+AS c0|c1|T|c2|36.872
+M c3:"2024-08-28 18:50:16,490 - setup - INFO - Current Xpath: //*[@id=\"main-content-area\"]/div[2]/div[2]/article[1]\n"
+C h|c3|36.872
+SE bW|s|36.872
+EA bF|T|c2
+M c4:"6"
+EA bL|W|c4
+EA b1|aW|aX
+EE s|j|37.906
+M c6:"while browser.is_element_visible(xpath)"
+P c5:c6|K|L|e|77
+SE c5|cW|37.906
+M c8:"Selenium.is_element_visible"
+P c7:c8|az|aA|e|1278
+SE c7|s|37.906
+EA bF|T|c2
+M c9:"missing_ok"
+M da:"True"
+EA c9|aQ|da
+M db:"2024-08-28 18:50:17,543 - RobotFramework - INFO - Element '//*[@id=\"main-content-area\"]/div[2]/div[2]/article[1]' is displayed.\n"
+C h|db|37.924
+P dc:c8|az|aA|e|1289
+R dc|aQ|da|37.925
+EE s|j|37.925
+M de:"Step: while browser.is_element_visible(xpath)"
+P dd:de|K|L|e|77
+SE dd|cZ|37.925
+EA c1|T|c2
+M df:"2024-08-28 18:50:17,544 - setup - INFO - Auxiliary value: 1\n"
+C h|df|37.926
+M dg:"2024-08-28 18:50:17,545 - setup - INFO - Looking for popup\n"
+C h|dg|37.927
+M di:"Selenium.is_element_enabled"
+P dh:di|az|aA|e|1260
+SE dh|s|37.927
+M dj:"'xpath://*[@id=\"root\"]/div/div[4]/div[2]/div/button'"
+EA bF|T|dj
+EA c9|aQ|da
+P dk:di|az|aA|e|1271
+R dk|aQ|da|37.955
+EE s|j|37.955
+M dm:"if browser.is_element_enabled('xpath://*[@id=\"root\"]/div/div[4]/div[2]/div/button')"
+P dl:dm|K|L|e|81
+M dn:"IF_SCOPE"
+SE dl|dn|37.955
+M dp:"ElementKeywords.scroll_element_into_view"
+M dq:"SeleniumLibrary.keywords.element"
+M dr:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\keywords\\element.py"
+P do:dp|dq|dr|e|768
+SE do|s|37.955
+EA bF|T|dj
+EE s|j|38.239
+SE bD|s|38.239
+EA bF|T|dj
+M ds:"2024-08-28 18:50:17,875 - RobotFramework - INFO - Element 'xpath://*[@id=\"root\"]/div/div[4]/div[2]/div/button' is displayed.\n"
+C h|ds|38.257
+M dt:"2024-08-28 18:50:17,876 - RobotFramework - INFO - Clicking element 'xpath://*[@id=\"root\"]/div/div[4]/div[2]/div/button'.\n"
+C h|dt|38.257
+EE s|j|38.3
+EE dn|j|38.3
+P du:bT|K|L|e|90
+M dv:"title_xpath"
+M dw:"'//*[@id=\"main-content-area\"]/div[2]/div[2]/article[1]/div[2]/div[1]'"
+AS du|dv|T|dw|38.3
+SE do|s|38.301
+EA bF|T|c2
+EE s|j|38.599
+SE bW|s|38.6
+EA bF|T|dw
+EA bL|aW|aX
+EA b1|aW|aX
+EE s|j|38.635
+P dx:bT|K|L|e|97
+M dy:"time_xpath"
+M dz:"'//*[@id=\"main-content-area\"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]'"
+AS dx|dy|T|dz|38.635
+M dA:"2024-08-28 18:50:18,253 - setup - INFO - Looking for date field\n"
+C h|dA|38.636
+SE c7|s|38.636
+EA bF|T|dz
+EA c9|aQ|da
+M dB:"2024-08-28 18:50:20,305 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id=\"main-content-area\"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>\n"
+C h|dB|40.687
+R dc|aQ|aR|40.688
+EE s|j|40.688
+SE c7|s|40.688
+EA bF|T|dz
+EA c9|aQ|da
+M dC:"2024-08-28 18:50:22,363 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator '//*[@id=\"main-content-area\"]/div[2]/div[2]/article[1]/div[2]/footer/div/div/div/div/span[2]' not found.</i>\n"
+C h|dC|42.744
+R dc|aQ|aR|42.745
+EE s|j|42.745
+M dE:"if not browser.is_element_visible(time_xpath)"
+P dD:dE|K|L|e|113
+SE dD|dn|42.745
+P dF:bT|K|L|e|115
+M dG:"'//*[@id=\"main-content-area\"]/div[2]/div[2]/article[2]'"
+AS dF|c1|T|dG|42.745
+M dH:"2024-08-28 18:50:22,363 - setup - INFO - Continue: News has no time info\n"
+C h|dH|42.745
+P dI:bT|K|L|e|119
+M dJ:"CONTINUE"
+SE dI|dJ|42.745
+SE c7|s|42.745
+EA bF|T|dG
+EA c9|aQ|da
+M dK:"2024-08-28 18:50:22,378 - RobotFramework - INFO - Element '//*[@id=\"main-content-area\"]/div[2]/div[2]/article[2]' is displayed.\n"
+C h|dK|42.761
+R dc|aQ|da|42.761
+EE s|j|42.761
+EE dn|j|42.761
+EE cZ|j|42.761
+SE dd|cZ|42.761
+EA c1|T|dG
+M dL:"2024-08-28 18:50:22,379 - setup - INFO - Auxiliary value: 2\n"
+C h|dL|42.761
+M dM:"2024-08-28 18:50:22,380 - setup - INFO - Looking for popup\n"
+C h|dM|42.761
+SE dh|s|42.761
+EA bF|T|dj
+EA c9|aQ|da
+M dN:"2024-08-28 18:50:23,841 - RobotFramework - INFO - Ran with keyword <b>Element Should Be Enabled</b> which returned error: <i>Element with locator 'xpath://*[@id=\"root\"]/div/div[4]/div[2]/div/button' not found.</i>\n"
+C h|dN|44.222
+R dk|aQ|aR|44.223
+EE s|j|44.223
+M dO:"'//*[@id=\"main-content-area\"]/div[2]/div[2]/article[2]/div[2]/div[1]'"
+AS du|dv|T|dO|44.223
+SE do|s|44.223
+EA bF|T|dG
+M dP:"NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=128.0.6613.85)\nStacktrace:\n\tGetHandleVerifier [0x01168283+26163]\n\t(No symbol) [0x010F9D34]\n\t(No symbol) [0x00FF24C3]\n\t(No symbol) [0x00FCE27B]\n\t(No symbol) [0x0106192F]\n\t(No symbol) [0x01073F99]\n\t(No symbol) [0x0105AA56]\n\t(No symbol) [0x0102BE89]\n\t(No symbol) [0x0102C8CD]\n\tGetHandleVerifier [0x0143CF73+2994979]\n\tGetHandleVerifier [0x014917E9+3341209]\n\tGetHandleVerifier [0x011F7B5F+614159]\n\tGetHandleVerifier [0x011FF1EC+644508]\n\t(No symbol) [0x0110286D]\n\t(No symbol) [0x010FF768]\n\t(No symbol) [0x010FF905]\n\t(No symbol) [0x010F1C86]\n\tBaseThreadInitThunk [0x75517BA9+25]\n\tRtlInitializeExceptionChain [0x76FDC10B+107]\n\tRtlClearBits [0x76FDC08F+191]\n"
+STB dP|44.224
+M dQ:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\robocorp\\tasks\\_task.py"
+M dR:"run"
+M dS:"return self.method(**kwargs)"
+TBE dQ|57|dR|dS
+M dT:"self"
+M dU:"Task"
+M dV:"Task(main, status: Status.NOT_RUN)"
+TBV dT|dU|dV
 TBV aE|aF|aG
-M bk:"sig"
-M bl:"Signature"
-M bm:"<Signature ()>"
-TBV bk|bl|bm
-M bn:"bot.run('Test', 1)"
-TBE m|7|l|bn
+M dW:"sig"
+M dX:"Signature"
+M dY:"<Signature ()>"
+TBV dW|dX|dY
+M dZ:"bot.run('Test', 1)"
+TBE m|7|l|dZ
 TBV N|O|P
-M bo:"automation.open_browser()"
-TBE w|17|bf|bo
-TBV bh|O|P
+M d0:"automation.iterate_news(time_period, search)"
+TBE w|19|dR|d0
+TBV dT|O|P
 TBV S|T|U
 TBV V|W|X
 TBV v|ar|as
-M bp:"open_browser"
-M bq:"browser.maximize_browser_window()"
-TBE L|18|bp|bq
-TBV bh|ar|as
+M d1:"iterate_news"
+M d2:"browser.scroll_element_into_view(xpath)"
+TBE L|91|d1|d2
+TBV dT|ar|as
+TBV V|W|X
+TBV bU|T|U
 TBV aI|aJ|aK
-M br:"maximize_browser_window"
-M bs:"super().maximize_browser_window(*args, **kwargs)"
-TBE aA|190|br|bs
-M bt:"WindowKeywords"
-M bu:"<RPA.Browser.Selenium.WindowKeywords object at 0x000002515D9D1E10>"
-TBV bh|bt|bu
-M bv:"force"
-TBV bv|aQ|aR
-TBV aB|aC|aD
-TBV aE|aF|aG
-M bw:"__class__"
-M bx:"type"
-M by:"<class 'RPA.Browser.Selenium.WindowKeywords'>"
-TBV bw|bx|by
-M bz:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\SeleniumLibrary\\keywords\\window.py"
-M bA:"self.driver.maximize_window()"
-TBE bz|187|br|bA
-TBV bh|bt|bu
-M bB:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py"
-M bC:"maximize_window"
-M bD:"self.execute(command, None)"
-TBE bB|499|bC|bD
-M bE:"WebDriver"
-M bF:"<selenium.webdriver.chrome.webdriver.WebDriver (session=\"375da2002da356724767d9167d379202\")>"
-TBV bh|bE|bF
-M bG:"command"
-M bH:"'w3cMaximizeWindow'"
-TBV bG|T|bH
-M bI:"execute"
-M bJ:"self.error_handler.check_response(response)"
-TBE bB|347|bI|bJ
-TBV bh|bE|bF
-M bK:"driver_command"
-TBV bK|T|bH
-M bL:"params"
-TBV bL|aF|aG
-M bM:"response"
-M bN:"{'status': 404, 'value': '{\"value\":{\"error\":\"no such window\",\"message\":\"no such window: target window already closed\\\\nfrom unknown error: web view not found\\\\n  (Session info: chrome=127.0.6533.120)\",\"stacktrace\":\"\\\\tGetHandleVerifier [0x00B38923+23283]\\\\n\\\\t(No symbol) [0x00AFE934]\\\\n\\\\t(No symbol) [0x00A30733]\\\\n\\\\t(No symbol) [0x00A0D2E3]\\\\n\\\\t(No symbol) [0x00A9A64F]\\\\n\\\\t(No symbol) [0x00AAC686]\\\\n\\\\t(No symbol) [0x00A941B6]\\\\n\\\\t(No symbol) [0x00A68017]\\\\n\\\\t(No symbol) [0x00A6890D]\\\\n\\\\tGetHandleVerifier [0x00C2A5F3+1013699]\\\\n\\\\tGetHandleVerifier [0x00C33E4C+1052700]\\\\n\\\\tGetHandleVerifier [0x00C2D4B4+1025668]\\\\n\\\\tGetHandleVerifier [0x00B5EA2B+179195]\\\\n\\\\t(No symbol) [0x00B06833]\\\\n\\\\t(No symbol) [0x00B03198]\\\\n\\\\t(No symbol) [0x00B03337]\\\\n\\\\t(No symbol) [0x00AFB4BE]\\\\n\\\\tBaseThreadInitThunk [0x75517BA9+25]\\\\n\\\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\\\n\\\\tRtlClearBits [0x76FDC08F+191]\\\\n\"}}'}"
-TBV bM|aF|bN
-M bO:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py"
-M bP:"check_response"
-M bQ:"raise exception_class(message, screen, stacktrace)"
-TBE bO|229|bP|bQ
-M bR:"ErrorHandler"
-M bS:"<selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000002515D6AE1D0>"
-TBV bh|bR|bS
-TBV bM|aF|bN
-M bT:"status"
-M bU:"'no such window'"
-TBV bT|T|bU
-M bV:"value"
-M bW:"{'error': 'no such window', 'message': 'no such window: target window already closed\\nfrom unknown error: web view not found\\n  (Session info: chrome=127.0.6533.120)', 'stacktrace': '\\tGetHandleVerifier [0x00B38923+23283]\\n\\t(No symbol) [0x00AFE934]\\n\\t(No symbol) [0x00A30733]\\n\\t(No symbol) [0x00A0D2E3]\\n\\t(No symbol) [0x00A9A64F]\\n\\t(No symbol) [0x00AAC686]\\n\\t(No symbol) [0x00A941B6]\\n\\t(No symbol) [0x00A68017]\\n\\t(No symbol) [0x00A6890D]\\n\\tGetHandleVerifier [0x00C2A5F3+1013699]\\n\\tGetHandleVerifier [0x00C33E4C+1052700]\\n\\tGetHandleVerifier [0x00C2D4B4+1025668]\\n\\tGetHandleVerifier [0x00B5EA2B+179195]\\n\\t(No symbol) [0x00B06833]\\n\\t(No symbol) [0x00B03198]\\n\\t(No symbol) [0x00B03337]\\n\\t(No symbol) [0x00AFB4BE]\\n\\tBaseThreadInitThunk [0x75517BA9+25]\\n\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\n\\tRtlClearBits [0x76FDC08F+191]\\n'}"
-TBV bV|aF|bW
-M bX:"message"
-M bY:"'no such window: target window already closed\\nfrom unknown error: web view not found\\n  (Session info: chrome=127.0.6533.120)'"
-TBV bX|T|bY
-M bZ:"screen"
-TBV bZ|aW|aX
-M b0:"stacktrace"
-M b1:"list"
-M b2:"['\\tGetHandleVerifier [0x00B38923+23283]', '\\t(No symbol) [0x00AFE934]', '\\t(No symbol) [0x00A30733]', '\\t(No symbol) [0x00A0D2E3]', '\\t(No symbol) [0x00A9A64F]', '\\t(No symbol) [0x00AAC686]', '\\t(No symbol) [0x00A941B6]', '\\t(No symbol) [0x00A68017]', '\\t(No symbol) [0x00A6890D]', '\\tGetHandleVerifier [0x00C2A5F3+1013699]', '\\tGetHandleVerifier [0x00C33E4C+1052700]', '\\tGetHandleVerifier [0x00C2D4B4+1025668]', '\\tGetHandleVerifier [0x00B5EA2B+179195]', '\\t(No symbol) [0x00B06833]', '\\t(No symbol) [0x00B03198]', '\\t(No symbol) [0x00B03337]', '\\t(No symbol) [0x00AFB4BE]', '\\tBaseThreadInitThunk [0x75517BA9+25]', '\\tRtlInitializeExceptionChain [0x76FDC10B+107]', '\\tRtlClearBits [0x76FDC08F+191]', '']"
-TBV b0|b1|b2
-M b3:"value_json"
-M b4:"'{\"value\":{\"error\":\"no such window\",\"message\":\"no such window: target window already closed\\\\nfrom unknown error: web view not found\\\\n  (Session info: chrome=127.0.6533.120)\",\"stacktrace\":\"\\\\tGetHandleVerifier [0x00B38923+23283]\\\\n\\\\t(No symbol) [0x00AFE934]\\\\n\\\\t(No symbol) [0x00A30733]\\\\n\\\\t(No symbol) [0x00A0D2E3]\\\\n\\\\t(No symbol) [0x00A9A64F]\\\\n\\\\t(No symbol) [0x00AAC686]\\\\n\\\\t(No symbol) [0x00A941B6]\\\\n\\\\t(No symbol) [0x00A68017]\\\\n\\\\t(No symbol) [0x00A6890D]\\\\n\\\\tGetHandleVerifier [0x00C2A5F3+1013699]\\\\n\\\\tGetHandleVerifier [0x00C33E4C+1052700]\\\\n\\\\tGetHandleVerifier [0x00C2D4B4+1025668]\\\\n\\\\tGetHandleVerifier [0x00B5EA2B+179195]\\\\n\\\\t(No symbol) [0x00B06833]\\\\n\\\\t(No symbol) [0x00B03198]\\\\n\\\\t(No symbol) [0x00B03337]\\\\n\\\\t(No symbol) [0x00AFB4BE]\\\\n\\\\tBaseThreadInitThunk [0x75517BA9+25]\\\\n\\\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\\\n\\\\tRtlClearBits [0x76FDC08F+191]\\\\n\"}}'"
-TBV b3|T|b4
-M b5:"json"
-M b6:"module"
-M b7:"<module 'json' from 'C:\\\\Users\\\\gabri\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\json\\\\__init__.py'>"
-TBV b5|b6|b7
-M b8:"e"
-M b9:"ErrorCode"
-M ca:"<selenium.webdriver.remote.errorhandler.ErrorCode object at 0x000002515D791990>"
-TBV b8|b9|ca
-M cb:"error_codes"
-M cc:"['ELEMENT_CLICK_INTERCEPTED', 'ELEMENT_IS_NOT_SELECTABLE', 'ELEMENT_NOT_INTERACTABLE', 'ELEMENT_NOT_VISIBLE', 'IME_ENGINE_ACTIVATION_FAILED', 'IME_NOT_AVAILABLE', 'INSECURE_CERTIFICATE', 'INVALID_ARGUMENT', 'INVALID_COOKIE_DOMAIN', 'INVALID_COORDINATES', 'INVALID_ELEMENT_COORDINATES', 'INVALID_ELEMENT_STATE', 'INVALID_SELECTOR', 'INVALID_SESSION_ID', 'INVALID_XPATH_SELECTOR', 'INVALID_XPATH_SELECTOR_RETURN_TYPER', 'JAVASCRIPT_ERROR', 'METHOD_NOT_ALLOWED', 'MOVE_TARGET_OUT_OF_BOUNDS', 'NO_ALERT_OPEN', 'NO_SUCH_COOKIE', 'NO_SUCH_ELEMENT', 'NO_SUCH_FRAME', 'NO_SUCH_SHADOW_ROOT', 'NO_SUCH_WINDOW', 'SCRIPT_TIMEOUT', 'SESSION_NOT_CREATED', 'STALE_ELEMENT_REFERENCE', 'SUCCESS', 'TIMEOUT', 'UNABLE_TO_CAPTURE_SCREEN', 'UNABLE_TO_SET_COOKIE', 'UNEXPECTED_ALERT_OPEN', 'UNKNOWN_COMMAND', 'UNKNOWN_ERROR', 'UNKNOWN_METHOD', 'XPATH_LOOKUP_ERROR']"
-TBV cb|b1|cc
-M cd:"error_code"
-M ce:"'NO_SUCH_WINDOW'"
-TBV cd|T|ce
-M cf:"error_info"
-M cg:"[23, 'no such window']"
-TBV cf|b1|cg
-M ch:"exception_class"
-M ci:"<class 'selenium.common.exceptions.NoSuchWindowException'>"
-TBV ch|bx|ci
-M cj:"st_value"
-M ck:"'\\tGetHandleVerifier [0x00B38923+23283]\\n\\t(No symbol) [0x00AFE934]\\n\\t(No symbol) [0x00A30733]\\n\\t(No symbol) [0x00A0D2E3]\\n\\t(No symbol) [0x00A9A64F]\\n\\t(No symbol) [0x00AAC686]\\n\\t(No symbol) [0x00A941B6]\\n\\t(No symbol) [0x00A68017]\\n\\t(No symbol) [0x00A6890D]\\n\\tGetHandleVerifier [0x00C2A5F3+1013699]\\n\\tGetHandleVerifier [0x00C33E4C+1052700]\\n\\tGetHandleVerifier [0x00C2D4B4+1025668]\\n\\tGetHandleVerifier [0x00B5EA2B+179195]\\n\\t(No symbol) [0x00B06833]\\n\\t(No symbol) [0x00B03198]\\n\\t(No symbol) [0x00B03337]\\n\\t(No symbol) [0x00AFB4BE]\\n\\tBaseThreadInitThunk [0x75517BA9+25]\\n\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\n\\tRtlClearBits [0x76FDC08F+191]\\n'"
-TBV cj|T|ck
-ETB 8.813
-M cl:"ERROR"
-EE s|cl|8.813
-EE s|cl|8.813
-M cm:"2024-08-24 12:13:42,982 - setup - ERROR - Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=127.0.6533.120)\nStacktrace:\n\tGetHandleVerifier [0x00B38923+23283]\n\t(No symbol) [0x00AFE934]\n\t(No symbol) [0x00A30733]\n\t(No symbol) [0x00A0D2E3]\n\t(No symbol) [0x00A9A64F]\n\t(No symbol) [0x00AAC686]\n\t(No symbol) [0x00A941B6]\n\t(No symbol) [0x00A68017]\n\t(No symbol) [0x00A6890D]\n\tGetHandleVerifier [0x00C2A5F3+1013699]\n\tGetHandleVerifier [0x00C33E4C+1052700]\n\tGetHandleVerifier [0x00C2D4B4+1025668]\n\tGetHandleVerifier [0x00B5EA2B+179195]\n\t(No symbol) [0x00B06833]\n\t(No symbol) [0x00B03198]\n\t(No symbol) [0x00B03337]\n\t(No symbol) [0x00AFB4BE]\n\tBaseThreadInitThunk [0x75517BA9+25]\n\tRtlInitializeExceptionChain [0x76FDC10B+107]\n\tRtlClearBits [0x76FDC08F+191]\n\n"
-C h|cm|8.814
-M co:"Tasks.close_browser"
-P cn:co|K|L|e|26
-SE cn|s|8.815
-STB bd|8.815
-TBE be|57|bf|bg
-TBV bh|bi|bj
-TBV aE|aF|aG
-TBV bk|bl|bm
-TBE m|7|l|bn
-TBV N|O|P
-TBE w|17|bf|bo
-TBV bh|O|P
-TBV S|T|U
-TBV V|W|X
-TBV v|ar|as
-M cp:"NoSuchWindowException"
-M cq:"NoSuchWindowException()"
-TBV b8|cp|cq
-TBE L|18|bp|bq
-TBV bh|ar|as
-TBV aI|aJ|aK
-TBE aA|190|br|bs
-TBV bh|bt|bu
-TBV bv|aQ|aR
-TBV aB|aC|aD
-TBV aE|aF|aG
-TBV bw|bx|by
-TBE bz|187|br|bA
-TBV bh|bt|bu
-TBE bB|499|bC|bD
-TBV bh|bE|bF
-TBV bG|T|bH
-TBE bB|347|bI|bJ
-TBV bh|bE|bF
-TBV bK|T|bH
-TBV bL|aF|aG
-TBV bM|aF|bN
-TBE bO|229|bP|bQ
-TBV bh|bR|bS
-TBV bM|aF|bN
-TBV bT|T|bU
-TBV bV|aF|bW
-TBV bX|T|bY
-TBV bZ|aW|aX
-TBV b0|b1|b2
-TBV b3|T|b4
-TBV b5|b6|b7
-TBV b8|b9|ca
-TBV cb|b1|cc
-TBV cd|T|ce
-TBV cf|b1|cg
-TBV ch|bx|ci
-TBV cj|T|ck
-ETB 8.815
-M cr:"AttributeError: 'NoneType' object has no attribute 'close_all_browsers' (this exception occurred during handling of the previous exception)"
-STB cr|8.815
-TBE be|57|bf|bg
-TBV bh|bi|bj
-TBV aE|aF|aG
-TBV bk|bl|bm
-TBE m|7|l|bn
-TBV N|O|P
-M cs:"automation.close_browser()"
-TBE w|23|bf|cs
-TBV bh|O|P
-TBV S|T|U
-TBV V|W|X
-TBV v|ar|as
-TBV b8|cp|cq
-M ct:"close_browser"
-M cu:"self.browser.close_all_browsers()"
-TBE L|27|ct|cu
-TBV bh|ar|as
-ETB 8.815
-EE s|cl|8.815
-EE s|cl|8.815
-EE s|cl|8.815
-C q|l|8.816
-M cv:" status: "
-C f|cv|8.816
-M cw:"error"
-M cx:"FAIL\n"
-C cw|cx|8.816
-M cy:"\n'NoneType' object has no attribute 'close_all_browsers'\n"
-C cw|cy|8.816
-M cz:"======================== "
-C f|cz|8.816
-M cA:"Full Traceback (running "
-C f|cA|8.816
-C q|l|8.816
-M cB:")"
-C f|cB|8.817
-M cC:" =========================\n"
-C f|cC|8.817
-M cD:"traceback"
-M cE:"Traceback (most recent call last):\n  File \"C:\\Code\\Projects\\thoughtfulai\\automation.py\", line 17, in run\n    automation.open_browser()\n  File \"C:\\Code\\Projects\\thoughtfulai\\tasks.py\", line 18, in open_browser\n    browser.maximize_browser_window()\n  File \"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\RPA\\Browser\\Selenium.py\", line 190, in maximize_browser_window\n    super().maximize_browser_window(*args, **kwargs)\n  File \"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\SeleniumLibrary\\keywords\\window.py\", line 187, in maximize_browser_window\n    self.driver.maximize_window()\n  File \"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 499, in maximize_window\n    self.execute(command, None)\n  File \"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 347, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 229, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=127.0.6533.120)\nStacktrace:\n\tGetHandleVerifier [0x00B38923+23283]\n\t(No symbol) [0x00AFE934]\n\t(No symbol) [0x00A30733]\n\t(No symbol) [0x00A0D2E3]\n\t(No symbol) [0x00A9A64F]\n\t(No symbol) [0x00AAC686]\n\t(No symbol) [0x00A941B6]\n\t(No symbol) [0x00A68017]\n\t(No symbol) [0x00A6890D]\n\tGetHandleVerifier [0x00C2A5F3+1013699]\n\tGetHandleVerifier [0x00C33E4C+1052700]\n\tGetHandleVerifier [0x00C2D4B4+1025668]\n\tGetHandleVerifier [0x00B5EA2B+179195]\n\t(No symbol) [0x00B06833]\n\t(No symbol) [0x00B03198]\n\t(No symbol) [0x00B03337]\n\t(No symbol) [0x00AFB4BE]\n\tBaseThreadInitThunk [0x75517BA9+25]\n\tRtlInitializeExceptionChain [0x76FDC10B+107]\n\tRtlClearBits [0x76FDC08F+191]\n\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\robocorp\\tasks\\_commands.py\", line 453, in run\n    result = task.run(**kwargs)\n             ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\robocorp\\tasks\\_task.py\", line 57, in run\n    return self.method(**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Code\\Projects\\thoughtfulai\\main.py\", line 7, in main\n    bot.run('Test', 1)\n  File \"C:\\Code\\Projects\\thoughtfulai\\automation.py\", line 23, in run\n    automation.close_browser()\n  File \"C:\\Code\\Projects\\thoughtfulai\\tasks.py\", line 27, in close_browser\n    self.browser.close_all_browsers()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'close_all_browsers'\n\n"
-C cD|cE|8.818
-M cF:"================================================================================\n"
-C f|cF|8.823
-M cG:"FAIL"
-M cH:"'NoneType' object has no attribute 'close_all_browsers'"
-ET cG|cH|8.823
-M cJ:"Teardown tasks"
-M cK:"teardown"
-P cI:cJ|cK|e|e|0
-ST cI|8.823
-M cL:"Process snapshot"
-SPS cL|8.823
-M cM:"System information:\nMemory: Total: 15.7 G, Available: 4.3 G, Used: 72.6 %\nCPUs: 16"
-P cN:e|e|e|e|0
-L I|cM|cN|0|9.217
-M cO:"Subprocess: chromedriver.exe (pid: 22704, status: running)\nCommand Line: C:\\Users\\gabri\\AppData\\Local\\robocorp\\webdrivers\\.wdm\\drivers\\chromedriver\\win64\\127.0.6533.119\\chromedriver-win32/chromedriver.exe --port=51187\nStarted: 12:13:41\nParent pid: 5448\nResident Set Size: 18.0 M\nVirtual Memory Size: 7.6 M"
-L I|cO|cN|0|9.241
-M cP:"MainThread|Thread ID: 22760 (non daemon)"
-STD cP|9.241
-M cQ:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\robocorp\\log\\__init__.py"
-M cR:"process_snapshot"
-M cS:"robo_logger.process_snapshot()"
-TBE cQ|270|cR|cS
-M cT:"logger_instances"
-M cU:"{<robocorp.log._robo_logger._RoboLogger object at 0x000002513A607F90>: 1}"
-TBV cT|aF|cU
-M cV:"robo_logger"
-M cW:"_RoboLogger"
-M cX:"<robocorp.log._robo_logger._RoboLogger object at 0x000002513A607F90>"
-TBV cV|cW|cX
-M cY:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\robocorp\\log\\_robo_logger.py"
-M cZ:"new_func"
-M c0:"return func(self, *args, **kwargs)"
-TBE cY|20|cZ|c0
-TBV bh|cW|cX
-TBV aB|aC|aD
-TBV aE|aF|aG
-M c1:"func"
-M c2:"function"
-M c3:"<function _RoboLogger.process_snapshot at 0x000002513BDF44A0>"
-TBV c1|c2|c3
-M c4:"return self._robot_output_impl.process_snapshot(hide_vars)"
-TBE cY|416|cR|c4
-TBV bh|cW|cX
-M c5:"hide_vars"
-TBV c5|aQ|aR
-M c6:"C:\\Code\\Projects\\thoughtfulai\\venv\\Lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
-M c7:"self._dump_threads(hide_vars)"
-TBE c6|748|cR|c7
-M c8:"_RoboOutputImpl"
-M c9:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x000002513BDFB0D0>"
-TBV bh|c8|c9
-TBV c5|aQ|aR
-M da:"log"
-M db:"<module 'robocorp.log' from 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py'>"
-TBV da|b6|db
-M dc:"entry_id"
-M dd:"'ps_3'"
-TBV dc|T|dd
-M de:"entry_type"
-M df:"'process_snapshot'"
-TBV de|T|df
-M dg:"psutil"
-M dh:"<module 'psutil' from 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
-TBV dg|b6|dh
-M di:"AccessDenied"
-M dj:"<class 'psutil.AccessDenied'>"
-TBV di|bx|dj
-M dk:"NoSuchProcess"
-M dl:"<class 'psutil.NoSuchProcess'>"
-TBV dk|bx|dl
-M dm:"ZombieProcess"
-M dn:"<class 'psutil.ZombieProcess'>"
-TBV dm|bx|dn
-M do:"curr_process"
-M dp:"Process"
-M dq:"psutil.Process(pid=5448, name='python.exe', status='running', started='12:13:34')"
-TBV do|dp|dq
-M dr:"log_info"
-M ds:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x000002513E9ADF80>"
-TBV dr|c2|ds
-M dt:"memory_info"
-M du:"'Total: 15.7 G, Available: 4.3 G, Used: 72.6 %'"
-TBV dt|T|du
-M dv:"child_i"
-TBV dv|W|X
-M dw:"child"
-M dx:"psutil.Process(pid=22704, name='chromedriver.exe', status='running', started='12:13:41')"
-TBV dw|dp|dx
-M dy:"name"
-M dz:"'chromedriver.exe'"
+TBV ca|b7|b8
+M d3:"2"
+TBV cj|W|d3
+TBV cl|aQ|aR
+TBV cn|co|cp
+TBV cR|co|cS
+TBV c1|T|dG
+TBV dv|T|dO
 TBV dy|T|dz
-M dA:"'running'"
-TBV bT|T|dA
-M dB:"create_time"
-M dC:"'12:13:41'"
-TBV dB|T|dC
-M dD:"ppid"
-M dE:"'5448'"
-TBV dD|T|dE
-M dF:"cmdline"
-M dG:"'C:\\\\Users\\\\gabri\\\\AppData\\\\Local\\\\robocorp\\\\webdrivers\\\\.wdm\\\\drivers\\\\chromedriver\\\\win64\\\\127.0.6533.119\\\\chromedriver-win32/chromedriver.exe --port=51187'"
-TBV dF|T|dG
-M dH:"rss"
-M dI:"'18.0 M'"
-TBV dH|T|dI
-M dJ:"vms"
-M dK:"'7.6 M'"
-TBV dJ|T|dK
-M dL:"proc_memory_info"
-M dM:"pmem"
-M dN:"pmem(rss=18870272, vms=8011776, num_page_faults=5094, peak_wset=18870272, wset=18870272, peak_paged_pool=220832, paged_pool=207840, peak_nonpaged_pool=29536, nonpaged_pool=21968, pagefile=8011776, peak_pagefile=8011776, private=8011776)"
-TBV dL|dM|dN
-M dO:"'Subprocess: chromedriver.exe (pid: 22704, status: running)\\nCommand Line: C:\\\\Users\\\\gabri\\\\AppData\\\\Local\\\\robocorp\\\\webdrivers\\\\.wdm\\\\drivers\\\\chromedriver\\\\win64\\\\127.0.6533.119\\\\chromedriver-win32/chromedriver.exe --port=51187\\nStarted: 12:13:41\\nParent pid: 5448\\nResident Set Size: 18.0 M\\nVirtual Memory Size: 7.6 M'"
-TBV bX|T|dO
-M dP:"_dump_threads"
-M dQ:"stack.append((f, f.f_lineno))"
-TBE c6|769|dP|dQ
-TBV bh|c8|c9
-TBV c5|aQ|aR
-M dR:"thread_id"
-M dS:"22760"
-TBV dR|W|dS
-M dT:"frame"
-M dU:"<frame at 0x000002513BE7ECE0, file 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>"
-TBV dT|dT|dU
-M dV:"thread"
-M dW:"_MainThread"
-M dX:"<_MainThread(MainThread, started 22760)>"
-TBV dV|dW|dX
-M dY:"title"
-M dZ:"'MainThread|Thread ID: 22760 (non daemon)'"
-TBV dY|T|dZ
-M d0:"f"
-M d1:"<frame at 0x000002513DD5E040, file 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 494, code run>"
-TBV d0|dT|d1
-M d2:"stack"
-M d3:"[(<frame at 0x000002513CC85700, file 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x000002513BE4A420, file 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x000002515DCAFB60, file 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x000002515E7954E0, file 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x000002513BE7ECE0, file 'C:\\\\Code\\\\Projects\\\\thoughtfulai\\\\venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
-TBV d2|b1|d3
-ETD 9.251
-EPS 9.251
-ET j|e|9.251
-ER cl|9.251
+M d4:"scroll_element_into_view"
+M d5:"element = self.find_element(locator)"
+TBE dr|776|d4|d5
+M d6:"ElementKeywords"
+M d7:"<SeleniumLibrary.keywords.element.ElementKeywords object at 0x00000223DBFD3F10>"
+TBV dT|d6|d7
+TBV bF|T|dG
+M d8:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\base\\context.py"
+M d9:"find_element"
+M ea:"return self.element_finder.find(locator, tag, True, required, parent)"
+TBE d8|82|d9|ea
+TBV dT|d6|d7
+TBV bF|T|dG
+M eb:"tag"
+TBV eb|aW|aX
+M ec:"required"
+TBV ec|aQ|da
+TBV b4|aW|aX
+M ed:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\SeleniumLibrary\\locators\\elementfinder.py"
+M ee:"find"
+M ef:"return self._find(locators[-1], tag, first_only, required, element)"
+TBE ed|93|ee|ef
+M eg:"RobocorpElementFinder"
+M eh:"<RPA.Browser.Selenium.RobocorpElementFinder object at 0x00000223DC13EBD0>"
+TBV dT|eg|eh
+TBV bF|T|dG
+TBV eb|aW|aX
+M ei:"first_only"
+TBV ei|aQ|da
+TBV ec|aQ|da
+TBV b4|aW|aX
+M ej:"element"
+TBV ej|aW|aX
+M ek:"locators"
+M el:"list"
+M em:"['//*[@id=\"main-content-area\"]/div[2]/div[2]/article[2]']"
+TBV ek|el|em
+M en:"_find"
+M eo:"elements = strategy(criteria, tag, constraints, parent=parent or self.driver)"
+TBE ed|123|en|eo
+TBV dT|eg|eh
+TBV bF|T|dG
+TBV eb|aW|aX
+TBV ei|aQ|da
+TBV ec|aQ|da
+TBV b4|aW|aX
+M ep:"element_type"
+M eq:"'Element'"
+TBV ep|T|eq
+M er:"prefix"
+M es:"'xpath'"
+TBV er|T|es
+M et:"criteria"
+TBV et|T|dG
+M eu:"strategy"
+M ev:"method"
+M ew:"<bound method ElementFinder._find_by_xpath of <RPA.Browser.Selenium.RobocorpElementFinder object at 0x00000223DC13EBD0>>"
+TBV eu|ev|ew
+M ex:"constraints"
+TBV ex|aF|aG
+M ey:"_find_by_xpath"
+M ez:"parent.find_elements(By.XPATH, criteria), tag, constraints"
+TBE ed|181|ey|ez
+TBV dT|eg|eh
+TBV et|T|dG
+TBV eb|aW|aX
+TBV ex|aF|aG
+M eA:"WebDriver"
+M eB:"<selenium.webdriver.chrome.webdriver.WebDriver (session=\"ac95a1ae3eaa7d79a2211040d32cbb84\")>"
+TBV b4|eA|eB
+M eC:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py"
+M eD:"find_elements"
+M eE:"return self.execute(Command.FIND_ELEMENTS, {\"using\": by, \"value\": value})[\"value\"] or []"
+TBE eC|771|eD|eE
+TBV dT|eA|eB
+M eF:"by"
+TBV eF|T|es
+TBV bl|T|dG
+M eG:"execute"
+M eH:"self.error_handler.check_response(response)"
+TBE eC|347|eG|eH
+TBV dT|eA|eB
+M eI:"driver_command"
+M eJ:"'findElements'"
+TBV eI|T|eJ
+M eK:"params"
+M eL:"{'using': 'xpath', 'value': '//*[@id=\"main-content-area\"]/div[2]/div[2]/article[2]'}"
+TBV eK|aF|eL
+M eM:"response"
+M eN:"{'status': 404, 'value': '{\"value\":{\"error\":\"no such window\",\"message\":\"no such window: target window already closed\\\\nfrom unknown error: web view not found\\\\n  (Session info: chrome=128.0.6613.85)\",\"stacktrace\":\"\\\\tGetHandleVerifier [0x01168283+26163]\\\\n\\\\t(No symbol) [0x010F9D34]\\\\n\\\\t(No symbol) [0x00FF24C3]\\\\n\\\\t(No symbol) [0x00FCE27B]\\\\n\\\\t(No symbol) [0x0106192F]\\\\n\\\\t(No symbol) [0x01073F99]\\\\n\\\\t(No symbol) [0x0105AA56]\\\\n\\\\t(No symbol) [0x0102BE89]\\\\n\\\\t(No symbol) [0x0102C8CD]\\\\n\\\\tGetHandleVerifier [0x0143CF73+2994979]\\\\n\\\\tGetHandleVerifier [0x014917E9+3341209]\\\\n\\\\tGetHandleVerifier [0x011F7B5F+614159]\\\\n\\\\tGetHandleVerifier [0x011FF1EC+644508]\\\\n\\\\t(No symbol) [0x0110286D]\\\\n\\\\t(No symbol) [0x010FF768]\\\\n\\\\t(No symbol) [0x010FF905]\\\\n\\\\t(No symbol) [0x010F1C86]\\\\n\\\\tBaseThreadInitThunk [0x75517BA9+25]\\\\n\\\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\\\n\\\\tRtlClearBits [0x76FDC08F+191]\\\\n\"}}'}"
+TBV eM|aF|eN
+M eO:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py"
+M eP:"check_response"
+M eQ:"raise exception_class(message, screen, stacktrace)"
+TBE eO|229|eP|eQ
+M eR:"ErrorHandler"
+M eS:"<selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x00000223D8381590>"
+TBV dT|eR|eS
+TBV eM|aF|eN
+M eT:"status"
+M eU:"'no such window'"
+TBV eT|T|eU
+M eV:"{'error': 'no such window', 'message': 'no such window: target window already closed\\nfrom unknown error: web view not found\\n  (Session info: chrome=128.0.6613.85)', 'stacktrace': '\\tGetHandleVerifier [0x01168283+26163]\\n\\t(No symbol) [0x010F9D34]\\n\\t(No symbol) [0x00FF24C3]\\n\\t(No symbol) [0x00FCE27B]\\n\\t(No symbol) [0x0106192F]\\n\\t(No symbol) [0x01073F99]\\n\\t(No symbol) [0x0105AA56]\\n\\t(No symbol) [0x0102BE89]\\n\\t(No symbol) [0x0102C8CD]\\n\\tGetHandleVerifier [0x0143CF73+2994979]\\n\\tGetHandleVerifier [0x014917E9+3341209]\\n\\tGetHandleVerifier [0x011F7B5F+614159]\\n\\tGetHandleVerifier [0x011FF1EC+644508]\\n\\t(No symbol) [0x0110286D]\\n\\t(No symbol) [0x010FF768]\\n\\t(No symbol) [0x010FF905]\\n\\t(No symbol) [0x010F1C86]\\n\\tBaseThreadInitThunk [0x75517BA9+25]\\n\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\n\\tRtlClearBits [0x76FDC08F+191]\\n'}"
+TBV bl|aF|eV
+M eW:"message"
+M eX:"'no such window: target window already closed\\nfrom unknown error: web view not found\\n  (Session info: chrome=128.0.6613.85)'"
+TBV eW|T|eX
+M eY:"screen"
+TBV eY|aW|aX
+M eZ:"stacktrace"
+M e0:"['\\tGetHandleVerifier [0x01168283+26163]', '\\t(No symbol) [0x010F9D34]', '\\t(No symbol) [0x00FF24C3]', '\\t(No symbol) [0x00FCE27B]', '\\t(No symbol) [0x0106192F]', '\\t(No symbol) [0x01073F99]', '\\t(No symbol) [0x0105AA56]', '\\t(No symbol) [0x0102BE89]', '\\t(No symbol) [0x0102C8CD]', '\\tGetHandleVerifier [0x0143CF73+2994979]', '\\tGetHandleVerifier [0x014917E9+3341209]', '\\tGetHandleVerifier [0x011F7B5F+614159]', '\\tGetHandleVerifier [0x011FF1EC+644508]', '\\t(No symbol) [0x0110286D]', '\\t(No symbol) [0x010FF768]', '\\t(No symbol) [0x010FF905]', '\\t(No symbol) [0x010F1C86]', '\\tBaseThreadInitThunk [0x75517BA9+25]', '\\tRtlInitializeExceptionChain [0x76FDC10B+107]', '\\tRtlClearBits [0x76FDC08F+191]', '']"
+TBV eZ|el|e0
+M e1:"value_json"
+M e2:"'{\"value\":{\"error\":\"no such window\",\"message\":\"no such window: target window already closed\\\\nfrom unknown error: web view not found\\\\n  (Session info: chrome=128.0.6613.85)\",\"stacktrace\":\"\\\\tGetHandleVerifier [0x01168283+26163]\\\\n\\\\t(No symbol) [0x010F9D34]\\\\n\\\\t(No symbol) [0x00FF24C3]\\\\n\\\\t(No symbol) [0x00FCE27B]\\\\n\\\\t(No symbol) [0x0106192F]\\\\n\\\\t(No symbol) [0x01073F99]\\\\n\\\\t(No symbol) [0x0105AA56]\\\\n\\\\t(No symbol) [0x0102BE89]\\\\n\\\\t(No symbol) [0x0102C8CD]\\\\n\\\\tGetHandleVerifier [0x0143CF73+2994979]\\\\n\\\\tGetHandleVerifier [0x014917E9+3341209]\\\\n\\\\tGetHandleVerifier [0x011F7B5F+614159]\\\\n\\\\tGetHandleVerifier [0x011FF1EC+644508]\\\\n\\\\t(No symbol) [0x0110286D]\\\\n\\\\t(No symbol) [0x010FF768]\\\\n\\\\t(No symbol) [0x010FF905]\\\\n\\\\t(No symbol) [0x010F1C86]\\\\n\\\\tBaseThreadInitThunk [0x75517BA9+25]\\\\n\\\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\\\n\\\\tRtlClearBits [0x76FDC08F+191]\\\\n\"}}'"
+TBV e1|T|e2
+M e3:"json"
+M e4:"module"
+M e5:"<module 'json' from 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\json\\\\__init__.py'>"
+TBV e3|e4|e5
+M e6:"e"
+M e7:"ErrorCode"
+M e8:"<selenium.webdriver.remote.errorhandler.ErrorCode object at 0x00000223D79345D0>"
+TBV e6|e7|e8
+M e9:"error_codes"
+M fa:"['ELEMENT_CLICK_INTERCEPTED', 'ELEMENT_IS_NOT_SELECTABLE', 'ELEMENT_NOT_INTERACTABLE', 'ELEMENT_NOT_VISIBLE', 'IME_ENGINE_ACTIVATION_FAILED', 'IME_NOT_AVAILABLE', 'INSECURE_CERTIFICATE', 'INVALID_ARGUMENT', 'INVALID_COOKIE_DOMAIN', 'INVALID_COORDINATES', 'INVALID_ELEMENT_COORDINATES', 'INVALID_ELEMENT_STATE', 'INVALID_SELECTOR', 'INVALID_SESSION_ID', 'INVALID_XPATH_SELECTOR', 'INVALID_XPATH_SELECTOR_RETURN_TYPER', 'JAVASCRIPT_ERROR', 'METHOD_NOT_ALLOWED', 'MOVE_TARGET_OUT_OF_BOUNDS', 'NO_ALERT_OPEN', 'NO_SUCH_COOKIE', 'NO_SUCH_ELEMENT', 'NO_SUCH_FRAME', 'NO_SUCH_SHADOW_ROOT', 'NO_SUCH_WINDOW', 'SCRIPT_TIMEOUT', 'SESSION_NOT_CREATED', 'STALE_ELEMENT_REFERENCE', 'SUCCESS', 'TIMEOUT', 'UNABLE_TO_CAPTURE_SCREEN', 'UNABLE_TO_SET_COOKIE', 'UNEXPECTED_ALERT_OPEN', 'UNKNOWN_COMMAND', 'UNKNOWN_ERROR', 'UNKNOWN_METHOD', 'XPATH_LOOKUP_ERROR']"
+TBV e9|el|fa
+M fb:"error_code"
+M fc:"'NO_SUCH_WINDOW'"
+TBV fb|T|fc
+M fd:"error_info"
+M fe:"[23, 'no such window']"
+TBV fd|el|fe
+M ff:"exception_class"
+M fg:"type"
+M fh:"<class 'selenium.common.exceptions.NoSuchWindowException'>"
+TBV ff|fg|fh
+M fi:"st_value"
+M fj:"'\\tGetHandleVerifier [0x01168283+26163]\\n\\t(No symbol) [0x010F9D34]\\n\\t(No symbol) [0x00FF24C3]\\n\\t(No symbol) [0x00FCE27B]\\n\\t(No symbol) [0x0106192F]\\n\\t(No symbol) [0x01073F99]\\n\\t(No symbol) [0x0105AA56]\\n\\t(No symbol) [0x0102BE89]\\n\\t(No symbol) [0x0102C8CD]\\n\\tGetHandleVerifier [0x0143CF73+2994979]\\n\\tGetHandleVerifier [0x014917E9+3341209]\\n\\tGetHandleVerifier [0x011F7B5F+614159]\\n\\tGetHandleVerifier [0x011FF1EC+644508]\\n\\t(No symbol) [0x0110286D]\\n\\t(No symbol) [0x010FF768]\\n\\t(No symbol) [0x010FF905]\\n\\t(No symbol) [0x010F1C86]\\n\\tBaseThreadInitThunk [0x75517BA9+25]\\n\\tRtlInitializeExceptionChain [0x76FDC10B+107]\\n\\tRtlClearBits [0x76FDC08F+191]\\n'"
+TBV fi|T|fj
+ETB 44.228
+M fk:"ERROR"
+EE s|fk|44.229
+EE cZ|fk|44.229
+EE cW|fk|44.229
+EE cZ|fk|44.229
+EE cW|fk|44.229
+EE s|fk|44.229
+M fl:"2024-08-28 18:50:23,848 - setup - ERROR - Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=128.0.6613.85)\nStacktrace:\n\tGetHandleVerifier [0x01168283+26163]\n\t(No symbol) [0x010F9D34]\n\t(No symbol) [0x00FF24C3]\n\t(No symbol) [0x00FCE27B]\n\t(No symbol) [0x0106192F]\n\t(No symbol) [0x01073F99]\n\t(No symbol) [0x0105AA56]\n\t(No symbol) [0x0102BE89]\n\t(No symbol) [0x0102C8CD]\n\tGetHandleVerifier [0x0143CF73+2994979]\n\tGetHandleVerifier [0x014917E9+3341209]\n\tGetHandleVerifier [0x011F7B5F+614159]\n\tGetHandleVerifier [0x011FF1EC+644508]\n\t(No symbol) [0x0110286D]\n\t(No symbol) [0x010FF768]\n\t(No symbol) [0x010FF905]\n\t(No symbol) [0x010F1C86]\n\tBaseThreadInitThunk [0x75517BA9+25]\n\tRtlInitializeExceptionChain [0x76FDC10B+107]\n\tRtlClearBits [0x76FDC08F+191]\n\n"
+C h|fl|44.229
+M fn:"Tasks.close_browser"
+P fm:fn|K|L|e|27
+SE fm|s|44.229
+M fp:"BrowserManagementKeywords.close_all_browsers"
+P fo:fp|bj|bk|e|40
+SE fo|s|44.23
+EE s|j|46.323
+EE s|j|46.323
+M fr:"Handle.Close"
+M fs:"subprocess"
+M ft:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\subprocess.py"
+P fq:fr|fs|ft|e|218
+SE fq|s|50.363
+M fu:"CloseHandle"
+M fv:"builtin_function_or_method"
+M fw:"<built-in function CloseHandle>"
+EA fu|fv|fw
+EE s|j|50.364
+EE s|j|50.364
+EE s|j|50.364
+C q|l|50.365
+M fx:" status: "
+C f|fx|50.366
+M fy:"PASS\n"
+C f|fy|50.366
+M fz:"================================================================================\n"
+C f|fz|50.367
+ET j|e|50.367
+M fB:"Teardown tasks"
+M fC:"teardown"
+P fA:fB|fC|e|e|0
+ST fA|50.367
+M fD:"Process snapshot"
+SPS fD|50.369
+M fE:"System information:\nMemory: Total: 15.7 G, Available: 3.5 G, Used: 77.7 %\nCPUs: 16"
+P fF:e|e|e|e|0
+L I|fE|fF|0|50.481
+M fG:"Current Process: python.exe (pid: 11936, status: running)\nCommand Line: C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\python.exe -m robocorp.tasks run main.py -t main\nStarted: 18:49:39\nParent pid: 11480\nResident Set Size: 108.4 M\nVirtual Memory Size: 96.4 M"
+L I|fG|fF|0|50.497
+M fH:"OutputToPortThread|Thread ID: 22148 (daemon)"
+STD fH|50.497
+M fI:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\threading.py"
+M fJ:"_bootstrap"
+M fK:"self._bootstrap_inner()"
+TBE fI|1002|fJ|fK
+M fL:"Thread"
+M fM:"<Thread(OutputToPortThread, started daemon 22148)>"
+TBV dT|fL|fM
+M fN:"_bootstrap_inner"
+M fO:"self.run()"
+TBE fI|1045|fN|fO
+TBV dT|fL|fM
+M fP:"self._target(*self._args, **self._kwargs)"
+TBE fI|982|dR|fP
+TBV dT|fL|fM
+M fQ:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\robocorp\\tasks\\_log_output_setup.py"
+M fR:"write_in_thread"
+M fS:"msg = q.get()"
+TBE fQ|73|fR|fS
+M fT:"msg"
+M fU:"'ST fA|50.354\\n'"
+TBV fT|T|fU
+M fV:"client_socket"
+M fW:"socket"
+M fX:"<socket.socket fd=576, family=2, type=1, proto=0, laddr=('127.0.0.1', 56567), raddr=('127.0.0.1', 53814)>"
+TBV fV|fW|fX
+M fY:"log"
+M fZ:"<module 'robocorp.log' from 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py'>"
+TBV fY|e4|fZ
+M f0:"port_in_env"
+M f1:"'53814'"
+TBV f0|T|f1
+M f2:"q"
+M f3:"Queue"
+M f4:"<queue.Queue object at 0x00000223D606A410>"
+TBV f2|f3|f4
+M f5:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\queue.py"
+M f6:"get"
+M f7:"self.not_empty.wait()"
+TBE f5|171|f6|f7
+TBV dT|f3|f4
+M f8:"block"
+TBV f8|aQ|da
+TBV bL|aW|aX
+M f9:"wait"
+M ga:"waiter.acquire()"
+TBE fI|327|f9|ga
+M gb:"Condition"
+M gc:"<Condition(<unlocked _thread.lock object at 0x00000223D5F3BC80>, 1)>"
+TBV dT|gb|gc
+TBV bL|aW|aX
+M gd:"waiter"
+M ge:"lock"
+M gf:"<locked _thread.lock object at 0x00000223DA26EB80>"
+TBV gd|ge|gf
+M gg:"saved_state"
+TBV gg|aW|aX
+M gh:"gotit"
+TBV gh|aQ|aR
+ETD 50.498
+M gi:"MainThread|Thread ID: 30864 (non daemon)"
+STD gi|50.498
+M gj:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\robocorp\\log\\__init__.py"
+M gk:"process_snapshot"
+M gl:"robo_logger.process_snapshot()"
+TBE gj|270|gk|gl
+M gm:"logger_instances"
+M gn:"{<robocorp.log._robo_logger._RoboLogger object at 0x00000223D602E950>: 1, <robocorp.log._robo_logger._RoboLogger object at 0x00000223D6073CD0>: 1}"
+TBV gm|aF|gn
+M go:"robo_logger"
+M gp:"_RoboLogger"
+M gq:"<robocorp.log._robo_logger._RoboLogger object at 0x00000223D602E950>"
+TBV go|gp|gq
+M gr:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\robocorp\\log\\_robo_logger.py"
+M gs:"new_func"
+M gt:"return func(self, *args, **kwargs)"
+TBE gr|20|gs|gt
+TBV dT|gp|gq
+TBV aB|aC|aD
+TBV aE|aF|aG
+M gu:"func"
+M gv:"function"
+M gw:"<function _RoboLogger.process_snapshot at 0x00000223D604BF60>"
+TBV gu|gv|gw
+M gx:"return self._robot_output_impl.process_snapshot(hide_vars)"
+TBE gr|416|gk|gx
+TBV dT|gp|gq
+M gy:"hide_vars"
+TBV gy|aQ|aR
+M gz:"C:\\ProgramData\\robocorp\\ht\\a6c53a7_b1f3c24_6133770e\\Lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
+M gA:"self._dump_threads(hide_vars)"
+TBE gz|748|gk|gA
+M gB:"_RoboOutputImpl"
+M gC:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x00000223D5F63990>"
+TBV dT|gB|gC
+TBV gy|aQ|aR
+TBV fY|e4|fZ
+M gD:"entry_id"
+M gE:"'ps_1'"
+TBV gD|T|gE
+M gF:"entry_type"
+M gG:"'process_snapshot'"
+TBV gF|T|gG
+M gH:"psutil"
+M gI:"<module 'psutil' from 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
+TBV gH|e4|gI
+M gJ:"AccessDenied"
+M gK:"<class 'psutil.AccessDenied'>"
+TBV gJ|fg|gK
+M gL:"NoSuchProcess"
+M gM:"<class 'psutil.NoSuchProcess'>"
+TBV gL|fg|gM
+M gN:"ZombieProcess"
+M gO:"<class 'psutil.ZombieProcess'>"
+TBV gN|fg|gO
+M gP:"curr_process"
+M gQ:"Process"
+M gR:"psutil.Process(pid=11936, name='python.exe', status='running', started='18:49:39')"
+TBV gP|gQ|gR
+M gS:"log_info"
+M gT:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x00000223D60C2160>"
+TBV gS|gv|gT
+M gU:"memory_info"
+M gV:"'Total: 15.7 G, Available: 3.5 G, Used: 77.7 %'"
+TBV gU|T|gV
+M gW:"child_i"
+TBV gW|W|cx
+M gX:"child"
+TBV gX|gQ|gR
+M gY:"name"
+M gZ:"'python.exe'"
+TBV gY|T|gZ
+M g0:"'running'"
+TBV eT|T|g0
+M g1:"create_time"
+M g2:"'18:49:39'"
+TBV g1|T|g2
+M g3:"ppid"
+M g4:"'11480'"
+TBV g3|T|g4
+M g5:"cmdline"
+M g6:"'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\python.exe -m robocorp.tasks run main.py -t main'"
+TBV g5|T|g6
+M g7:"rss"
+M g8:"'108.4 M'"
+TBV g7|T|g8
+M g9:"vms"
+M ha:"'96.4 M'"
+TBV g9|T|ha
+M hb:"proc_memory_info"
+M hc:"pmem"
+M hd:"pmem(rss=113627136, vms=101072896, num_page_faults=177052, peak_wset=115122176, wset=113627136, peak_paged_pool=678840, paged_pool=678488, peak_nonpaged_pool=105772, nonpaged_pool=39896, pagefile=101072896, peak_pagefile=104493056, private=101072896)"
+TBV hb|hc|hd
+M he:"'Current Process: python.exe (pid: 11936, status: running)\\nCommand Line: C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\python.exe -m robocorp.tasks run main.py -t main\\nStarted: 18:49:39\\nParent pid: 11480\\nResident Set Size: 108.4 M\\nVirtual Memory Size: 96.4 M'"
+TBV eW|T|he
+M hf:"_dump_threads"
+M hg:"stack.append((f, f.f_lineno))"
+TBE gz|769|hf|hg
+TBV dT|gB|gC
+TBV gy|aQ|aR
+M hh:"thread_id"
+M hi:"30864"
+TBV hh|W|hi
+M hj:"frame"
+M hk:"<frame at 0x00000223D60A2350, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>"
+TBV hj|hj|hk
+M hl:"thread"
+M hm:"_MainThread"
+M hn:"<_MainThread(MainThread, started 30864)>"
+TBV hl|hm|hn
+M ho:"title"
+M hp:"'MainThread|Thread ID: 30864 (non daemon)'"
+TBV ho|T|hp
+M hq:"f"
+M hr:"<frame at 0x00000223D97C5F00, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 494, code run>"
+TBV hq|hj|hr
+M hs:"stack"
+M ht:"[(<frame at 0x00000223D78CC520, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x00000223D60D60A0, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x00000223DC3B1F30, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x00000223DBFE74C0, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x00000223D60A2350, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\a6c53a7_b1f3c24_6133770e\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
+TBV hs|el|ht
+ETD 50.507
+EPS 50.507
+ET j|e|50.532
+ER j|50.532
