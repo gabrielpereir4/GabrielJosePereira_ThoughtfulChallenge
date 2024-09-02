@@ -9,11 +9,11 @@ class Automation:
 
 
     def run(self, search, time_period, item):
-        self.logger.info(item)
         self.setup.clean_screenshots_dir()
         automation = self.automation
         self.logger.info('Testing!')
         self.logger.info('Starting Bot')
+        self.logger.info(item)
         try:
             automation.open_browser()
             automation.search(search)

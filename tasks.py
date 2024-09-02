@@ -2,6 +2,7 @@ from datetime import datetime
 from RPA.Browser.Selenium import Selenium
 from dateutil.relativedelta import relativedelta
 import pandas as pd
+import os
 
 
 
@@ -18,7 +19,7 @@ class Tasks:
         browser.delete_all_cookies()
         browser.maximize_browser_window()
         browser.set_selenium_implicit_wait("2 seconds")
-        browser.set_screenshot_directory('.\\screenshots')
+        browser.set_screenshot_directory('.\\output\\screenshots')
         self.logger.info('Browser open!')
         self.browser = browser
         return browser
@@ -214,6 +215,11 @@ class Tasks:
         self.data.append(row_data)
 
     def save_to_excel(self):
+        output_dir = 'output'
+
+        os.makedirs(output_dir, exist_ok=True)
+
+        file_path = os.path.join(output_dir, 'excel.xlsx')
         df = pd.DataFrame(self.data)
         file_path = './output/excel.xlsx'
 

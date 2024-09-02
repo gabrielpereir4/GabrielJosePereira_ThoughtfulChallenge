@@ -7,6 +7,10 @@ class Setup():
 
 
     def setup_log(self):
+        output_dir = 'output'
+        os.makedirs(output_dir, exist_ok=True)
+        self.log_path = os.path.join(output_dir, 'botlog.log')
+        
         # For cleaning the log file before a new run
         with open(self.log_path, 'w'):
             pass
